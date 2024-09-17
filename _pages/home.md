@@ -6,14 +6,11 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Professional Resume"
-      url: "/resume/cv_240916.pdf"
+    - label: "<i class='fas fa-download'></i> Install now"
+      url: "/docs/quick-start-guide/"
 excerpt: >
-  <small>Live Long and Prosper, May the Force be with you, Bah-weep-Graaaaagnah wheep ni ni bong!</small> <br />
-  I am Chaewon Baek, an undergraduate student at Seoul National University(SNU),<br />
-  double majoring in <a href = "https://me.snu.ac.kr/">Mechanical Engineering</a> and <a href = "https://ece.snu.ac.kr/">Electrical&Computer Engineering</a>.<br />
-intro: 
-  - excerpt: 'If you want to know more about me, please visit other tabs in my website!'
+  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.26.2">Latest release v4.26.2</a></small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
@@ -38,8 +35,4 @@ feature_row:
     btn_label: "Learn more"      
 ---
 
-{% include feature_row id="intro" type="center" %}
 {% include feature_row %}
-
-
-<p>This text should appear above the recent posts.</p>
