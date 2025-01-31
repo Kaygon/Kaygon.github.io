@@ -1,45 +1,94 @@
 ---
-layout: splash
-permalink: /
-hidden: true
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Professional Resume"
-      url: "/resume/cv_240916.pdf"
-excerpt: >
-  <small>Live Long and Prosper, May the Force be with you, Bah-weep-Graaaaagnah wheep ni ni bong!</small> <br />
-  I am Chaewon Baek, an undergraduate student at Seoul National University(SNU),<br />
-  double majoring in <a href = "https://me.snu.ac.kr/">Mechanical Engineering</a> and <a href = "https://ece.snu.ac.kr/">Electrical&Computer Engineering</a>.<br />
-intro: 
-  - excerpt: 'If you want to know more about me, please visit other tabs in my website!'
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+layout: default
+title: Chaewon Baek
+description: Undergraduate Student at Seoul National University
 ---
 
-{% include feature_row id="intro" type="center" %}
-{% include feature_row %}
+{% assign projects = site.data.project-main.project %}
+{% assign news = site.data.news.list %}
+{% assign musics = site.data.music.musics %}
 
+<div class="container pt-3 pb-4">
+    <div class="container vertical-center">
+        <div class="row">
+            <div class="col-12 col-md-8 col-xxl-9 ps-0 align-self-center">
+                <h4>Chaewon Baek <img class="flag" src="{{ 'assets/images/misc/flag.svg' | relative_url }}"/></h4>
+                <div class="d-flex mx-2 mt-4 mb-3 justify-content-center d-md-none items-center">
+                    <img src="/assets/images/chaewon_1.jpg" class="w-75"/>
+                </div>
+                <p class="mt-3">I am an undergraduate student double majoring in <a href="https://me.snu.ac.kr/en/">Mechanical Engineering</a> and <a href = "https://ece.snu.ac.kr/en">Electrical & Computer Engineering</a> at <a href="https://en.snu.ac.kr/index.html">Seoul National University</a>.
+                I am currently a research intern at <a href = "https://starlab.snu.ac.kr/">SNU Transformative Architecture Laboratory (STAR Lab)</a>, where I study <b>origami structures and metamaterials</b> under professional guidance of <a href = "https://scholar.google.com.sg/citations?user=KkRZ5fwAAAAJ&hl=en">Prof. JKYang</a>.</p>
+                <p>I also visited <a href = "https://www.isas.jaxa.jp/en/">Japan Aerospace Exploration Agency(JAXA) Institute of Space and Aeronautical Science(ISAS)</a> as a visiting student, where I was advised by <a href = "https://scholar.google.com/citations?user=u-amiJoAAAAJ&hl=en">Prof. Hiromi Yasuda</a>. </p>
+                <p>My research interest is in design and control of origami-inspired mechanism, bio-inspired mechanism and 3D printing. For more info, please check out my CV and projects!</p>
+            </div>
+            <div class="d-none d-md-block col-12 col-md-4 col-xxl-3 align-self-center text-center">
+                <img src="/assets/images/chaewon_3.jpg" class="w-100" style="max-width: 225px;"/>
+            </div>
+        </div>
+    </div>
+    <p class="mt-3">
+      <a href="#" class="cryptedmail"
+        data-name="cwb1207"
+        data-domain="snu"
+        data-tld="ac.kr"
+        onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+        <i class="fa-solid fa-envelope" style="margin-right: .3rem;"></i>
+      </a>
+    </p>
+</div>
+<div class="container">
+    <p style="font-weight: 500 !important; text-transform: uppercase;">Recent projects</p>
+	<div class="scroller">
+		<div class="scroller-inner">
+            {% for project in projects %}
+			<div class="paper-container non-select">
+                <img src="{{ '/assets/images/main-project/' | append: project.image | relative_url }}" alt="" style="height: auto; width: 100%;">
+                <p class="pt-2 mt-md-2" style="font-size: .85rem; font-weight: 300 !important; line-height: 1rem; text-align: center;">{{ project.title }}{% if project.venue %}<a class="project-venue" href="{{ project.slug | prepend: 'publication/' | relative_url }}">{{ project.venue }}</a>{% endif %}</p>
+			</div>
+            {% endfor %}
+		</div>
+	</div>
+    <div class="d-flex flex-row-reverse mt-4">
+        <a href="{{ 'project' | relative_url }}" class="view-all">> View All</a>
+    </div>
+</div>
+<div class="container">
+    <p style="font-weight: 500 !important; text-transform: uppercase;">News</p>
+    <div class="row mt-4">
+        {% for new in news limit: 4 %}
+        <div class="col-12 col-sm-6">
+            <p class="mb-0" style="font-weight: 400 !important;">{{ new.title }}</p>
+            <p class="mb-1" style="font-size: .8rem; font-weight: 200 !important;">{{ new.date | date: "%b %-d, %Y" }}</p>
+            <p style="font-weight: 300 !important;">{{ new.description }}</p>
+            <hr>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="d-flex flex-row-reverse mt-4">
+        <a href="{{ 'news' | relative_url }}" class="view-all">> View All</a>
+    </div>
+</div>
+<div class="container">
+    <div class="d-flex flex-row-reverse mt-4">
+        <p class="misc-news"><i class="fa-solid fa-music" style="margin-right: .5rem;"></i>Check out my GarageBand cover of <a href="{{ '/music/' | relative_url }}"><span style="white-space: nowrap;">Girls' Generation</span> - <span style="white-space: nowrap;">Into the New World</span></a></p>
+    </div>
+</div>
 
-<p>This text should appear above the recent posts.</p>
+<script>
+	function addAnimation(scrollers) {
+		scrollers.forEach((scroller) => {
+			scroller.setAttribute("data-animated", true);
+
+			const scrollerInner = scroller.querySelector(".scroller-inner");
+			const scrollerContent = Array.from(scrollerInner.children);
+            
+			scrollerContent.forEach((item) => {
+				const duplicatedItem = item.cloneNode(true);
+				duplicatedItem.setAttribute("aria-hidden", true);
+				scrollerInner.appendChild(duplicatedItem);
+			});
+		});
+	}
+	const scrollers = document.querySelectorAll(".scroller");
+	addAnimation(scrollers);
+</script>
