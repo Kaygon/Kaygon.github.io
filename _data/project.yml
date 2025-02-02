@@ -1033,3 +1033,27 @@ project:
     description: Designing & developing a website for HCI+d Lab.
     link: 'http://hcid.snu.ac.kr'
     id: hcidweb
+  - category: schoolwork
+    detail: >
+      <p>For the term project in undergraduate course 'Mechatronics', our team built a music stand that automatically 
+      turns the music sheets.
+      This music stand recognizes the performer's playing and matches it with the preloaded sheet music on the 
+      device to decide the right moment to turn the page.<br><br></p>
+
+      <p>Our team won the grand prize in the course and won $2,000!</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='Automatic music stand'>
+
+      <p style='text-align: center;'><b>A picture of the finished product
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: Automatic Music Stand
+    description: Designing and building an automatic music stand
+    id: musicstand
