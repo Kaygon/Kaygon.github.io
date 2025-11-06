@@ -1,0 +1,56 @@
+artworks:
+  - title: SRT Logo
+    image: SRT Logo.png
+    artist: Chaewon Baek
+    Date: "2025"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/SRT Logo.png' class='img-responsive' alt='Logo'>
+
+      <hr>
+
+      <p>The logo I designed for 2025 SRT in Seoul</p>
+    tags:
+      - Design
+    description: >-
+      Digital Drawing with Inkscape, 2025
+    id: SRT
+    type: Drawing
+  - title: Book Cover Design for 'Physics for Scientists and Engineers with Modern Physics'
+    image: Serway_Typography.jpg
+    artist: Chaewon Baek
+    Date: "2020"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Serway_Typography.jpg' class='img-responsive' alt='Logo'>
+
+      <hr>
+
+      <p>During my sophomore year, I took <i>Introduction to Design 1</i> in the SNU College of Fine Arts, Department of Design. 
+      One of the projects was to design a book cover for a text of my choice, which happened to be my highschool physics textbook <b>Physics for Scientists and Engineers with Modern Physics</b> by Raymond A. Serway. 
+      The design draws inspiration from Michelangelo's <i>The Creation of Adam</i>. The hands of God and Adam are composed of mathematical symbols, expressing the idea that the world is built upon fundamental scientific principles.
+      At the point where their hands nearly touch, the fingers are formed from Maxwell's equations, representing the foundational laws of electromagnetism.
+      Their meeting sparks a burst of light, a nod to both the Big Bang and the biblical phrase, "Let there be light". 
+      The radiating light has the form of the properties of electromagnetic waves, further tying the imagery to the physics theme. 
+      Note, this artwork is intended as a conceptual and symbilic interpretation, and is not connected to my personal religious beliefs.</p>
+    tags:
+      - Design
+      - School Project
+    description: >-
+      Digital Drawing with Vectornator, 2020
+    id: SRT
+    type: Drawing
+  - title: Howl's Moving Castle
+    image: Howl.webp
+    artist: Original work by Miyazaki Hayao
+    Date: "2018"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Howl.webp' class='img-responsive' alt='Drawing of moving castle'>
+
+      <hr>
+
+      <p>FYI, This really took forever to draw XD</p>
+    tags:
+      - Drawing
+    description: >-
+      Pencil on Paper, 2018
+    id: howl
+    type: Drawing
