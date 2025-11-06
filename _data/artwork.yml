@@ -1,10 +1,10 @@
 artworks:
   - title: SRT Logo
-    image: SRT Logo.png
+    image: SRT Logo.jpg
     artist: Chaewon Baek
     Date: "2025"
     detail: >
-      <img src='site.baseurl/assets/images/artworks/SRT Logo.png' class='img-responsive' alt='Logo'>
+      <img src='site.baseurl/assets/images/artworks/SRT Logo.jpg' class='img-responsive' alt='Logo'>
 
       <hr>
 
@@ -15,6 +15,57 @@ artworks:
       Digital Drawing with Inkscape, 2025
     id: SRT
     type: Drawing
+  - title: Reby from <i>Black Lagoon</i>
+    image: Black_Lagoon.jpg
+    artist: Original work by Rei Hiroe, drawn by Chaewon Baek
+    Date: "2023"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Black_Lagoon.jpg' class='img-responsive' alt='Reby'>
+
+      <hr>
+
+      <p>One of my best drawings to date. I especially like how the color gradiants have come out in the hair.</p>
+    tags:
+      - Drawing
+    description: >-
+      Design marker and liner on paper, 2023
+    id: Fullmetal1
+    type: Drawing
+  - title: Edward Elric from Fullmetal Alchemist
+    image: Fullmetal_1.jpg
+    artist: Original work by Hiromu Arakawa, drawn by Chaewon Baek
+    Date: "2023"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Fullmetal_1.jpg' class='img-responsive' alt='fullmetal'>
+
+      <img src='site.baseurl/assets/images/artworks/Fullmetal_2.jpg' class='img-responsive' alt='fullmetal_sketch'>
+      <p style='text-align: center;'><b>Caught this before I started coloring with markers. 
+      I actually like leaving the original pencil sketch lines underneath. They add a certain touch of movement and life to the drawing.</b></p>
+      <hr>
+
+      <p>One of my favorite Animes. You should definately try this.</p>
+    tags:
+      - Drawing
+    description: >-
+      Design marker and liner on paper, 2023
+    id: Fullmetal1
+    type: Drawing
+  - title: Gally(Alita) from GUNNM(Battle Angel Alita)
+    image: Gunnm.jpg
+    artist: Original work by Yukito Kishiro, drawn by Chaewon Baek
+    Date: "2022"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Gunnm.jpg' class='img-responsive' alt='Gally'>
+
+      <hr>
+      <p>My first try at using design markers for drawing. At the time, I only had five markers at my disposal which limited my capabilities. 
+      I really struggled to make a realistic depiction of the shadows and hair. I'm pretty happy with the results though.</p>
+    tags:
+      - Drawing
+    description: >-
+      Design marker and liner on paper, 2022
+    id: Gunnm
+    type: Drawing
   - title: Book Cover Design for 'Physics for Scientists and Engineers with Modern Physics'
     image: Serway_Typography.jpg
     artist: Chaewon Baek
@@ -22,6 +73,8 @@ artworks:
     detail: >
       <img src='site.baseurl/assets/images/artworks/Serway_Typography.jpg' class='img-responsive' alt='Logo'>
 
+      <img src='site.baseurl/assets/images/artworks/Creation_of_Adam.jpg' class='img-responsive' alt='Logo'>
+      <p style='text-align: center;'><b>An homage to Michelangelo's infamous painting, <i>The Creation of Adam</i></b></p>
       <hr>
 
       <p>During my sophomore year, I took <i>Introduction to Design 1</i> in the SNU College of Fine Arts, Department of Design. 
