@@ -668,121 +668,121 @@ project:
     paper: chi2020_talkingboogie_paper.pdf
     appstore: 'https://apps.apple.com/app/id1435744898'
     id: talkingboogie
-  - category: schoolwork
-    detail: >
-      <p>I believe that one's favourite set of music in a specific period
-      represents own emotion at that period. To prove this, I listed all my
-      favourite songs by each semester. Then, I analyzed the emotion of each song
-      using <a href='https://cyanite.ai'>Cyanite</a>, and I visualized the results
-      with <a href='https://d3js.org'>D3.js</a>.<br><br></p>
+  # - category: schoolwork
+  #   detail: >
+  #     <p>I believe that one's favourite set of music in a specific period
+  #     represents own emotion at that period. To prove this, I listed all my
+  #     favourite songs by each semester. Then, I analyzed the emotion of each song
+  #     using <a href='https://cyanite.ai'>Cyanite</a>, and I visualized the results
+  #     with <a href='https://d3js.org'>D3.js</a>.<br><br></p>
 
-      <p>Well, I was super shocked by the result. For my depressing time, I used
-      to listen to melancholic songs. For my highest period, my playlist was full
-      of happy and energetic songs. Why don't you try with your own
-      playlist?<br><br></p>
+  #     <p>Well, I was super shocked by the result. For my depressing time, I used
+  #     to listen to melancholic songs. For my highest period, my playlist was full
+  #     of happy and energetic songs. Why don't you try with your own
+  #     playlist?<br><br></p>
 
-      <p>This design work was submitted as an assignment to Spring 2020 Design
-      Thinking for Communication course.</p>
+  #     <p>This design work was submitted as an assignment to Spring 2020 Design
+  #     Thinking for Communication course.</p>
 
-      <img src='site.baseurl/assets/images/project_detail/P3.jpg' class='img-responsive'
-      alt='Spring 2020 design thinking for communication project image'>
+  #     <img src='site.baseurl/assets/images/project_detail/P3.jpg' class='img-responsive'
+  #     alt='Spring 2020 design thinking for communication project image'>
 
-      <hr>
+  #     <hr>
 
-      <p><b>[My role in this project]</b><br>Independent project</p>
-    tags:
-      - Coursework
-      - InfoVis
-      - D3.js
-    image: dt4c_p3.jpg
-    title: Music Knows.
-    description: What my favorite sets of music tell about my emotion
-    id: dt4c_p3
-  - category: schoolwork
-    detail: >
-      <p>I personally don't prefer to believe things that haven't been proved yet.
-      But some posts in social networking services make people believe fake or
-      unproven news to be correct, and some even try to convey these for their
-      political purposes.<br><br></p>
+  #     <p><b>[My role in this project]</b><br>Independent project</p>
+  #   tags:
+  #     - Coursework
+  #     - InfoVis
+  #     - D3.js
+  #   image: dt4c_p3.jpg
+  #   title: Music Knows.
+  #   description: What my favorite sets of music tell about my emotion
+  #   id: dt4c_p3
+  # - category: schoolwork
+  #   detail: >
+  #     <p>I personally don't prefer to believe things that haven't been proved yet.
+  #     But some posts in social networking services make people believe fake or
+  #     unproven news to be correct, and some even try to convey these for their
+  #     political purposes.<br><br></p>
 
-      <p>In this project, I aimed to provide examples of some 'controversial'
-      information that emerged during the COVID-19 situation. Then, I tried to let
-      readers decide on it. Well, this project was tough because COVID-19 was a
-      'relatively new' phenomenon then, and it lacked scientifically proven
-      information. However, I'm pretty fascinated with how 'seemingly ridiculous'
-      information is spread throughout people and later considered to be
-      true.<br><br></p>
+  #     <p>In this project, I aimed to provide examples of some 'controversial'
+  #     information that emerged during the COVID-19 situation. Then, I tried to let
+  #     readers decide on it. Well, this project was tough because COVID-19 was a
+  #     'relatively new' phenomenon then, and it lacked scientifically proven
+  #     information. However, I'm pretty fascinated with how 'seemingly ridiculous'
+  #     information is spread throughout people and later considered to be
+  #     true.<br><br></p>
 
-      <p>This design work was submitted as an assignment to Spring 2020 Design
-      Thinking for Communication course.</p>
+  #     <p>This design work was submitted as an assignment to Spring 2020 Design
+  #     Thinking for Communication course.</p>
 
-      <img src='site.baseurl/assets/images/project_detail/P2.jpg' class='img-responsive'
-      alt='Spring 2020 design thinking for communication project image'>
+  #     <img src='site.baseurl/assets/images/project_detail/P2.jpg' class='img-responsive'
+  #     alt='Spring 2020 design thinking for communication project image'>
 
-      <hr>
+  #     <hr>
 
-      <p><b>[My role in this project]</b><br>Independent project</p>
-    tags:
-      - Coursework
-      - Infographics
-      - Illustrator
-    image: dt4c_p2.jpg
-    title: 'COVID-19, the Infodemics'
-    description: How misinformation and disinformation are spread and exacerbate COVID-19
-    id: dt4c_p2
-  - category: schoolwork
-    detail: >
-      <p>It's always fun to imagine things that won't happen XD<br><br></p>
+  #     <p><b>[My role in this project]</b><br>Independent project</p>
+  #   tags:
+  #     - Coursework
+  #     - Infographics
+  #     - Illustrator
+  #   image: dt4c_p2.jpg
+  #   title: 'COVID-19, the Infodemics'
+  #   description: How misinformation and disinformation are spread and exacerbate COVID-19
+  #   id: dt4c_p2
+  # - category: schoolwork
+  #   detail: >
+  #     <p>It's always fun to imagine things that won't happen XD<br><br></p>
 
-      <p>In this project, I assumed that well-known tech companies run their own
-      football team in a 'Tech Champions League.' In this tournament, each team
-      competes using own market cap. For this project, I mainly focused on
-      designing small multiples with the following question: What comes to mind
-      immediately when I think of the company?<br><br></p>
+  #     <p>In this project, I assumed that well-known tech companies run their own
+  #     football team in a 'Tech Champions League.' In this tournament, each team
+  #     competes using own market cap. For this project, I mainly focused on
+  #     designing small multiples with the following question: What comes to mind
+  #     immediately when I think of the company?<br><br></p>
 
-      <p>This design work was submitted as an assignment to Spring 2020 Design
-      Thinking for Communication course.</p>
+  #     <p>This design work was submitted as an assignment to Spring 2020 Design
+  #     Thinking for Communication course.</p>
 
-      <img src='site.baseurl/assets/images/project_detail/P1.jpg' class='img-responsive'
-      alt='Spring 2020 design thinking for communication project image'>
+  #     <img src='site.baseurl/assets/images/project_detail/P1.jpg' class='img-responsive'
+  #     alt='Spring 2020 design thinking for communication project image'>
 
-      <hr>
+  #     <hr>
 
-      <p><b>[My role in this project]</b><br>Independent project</p>
-    tags:
-      - Coursework
-      - Small multiple
-      - Illustrator
-    image: dt4c_p1.jpg
-    title: Tech Champion's League
-    description: What if well-known tech companies run their football team?
-    id: dt4c_p1
-  - category:
-      - industry
-    detail: >
-      <p>In this collaborative project among Samsung Research, SNU HCI+d Lab, and
-      Yonsei university, we aimed to
-          design a coherent visual identity for Bixby: a smart agent deployed to Samsung appliances.<br><br></p>
-      <p>During the study, I took part in developing prototypes and conducting
-      user experiment.</p>
+  #     <p><b>[My role in this project]</b><br>Independent project</p>
+  #   tags:
+  #     - Coursework
+  #     - Small multiple
+  #     - Illustrator
+  #   image: dt4c_p1.jpg
+  #   title: Tech Champion's League
+  #   description: What if well-known tech companies run their football team?
+  #   id: dt4c_p1
+  # - category:
+  #     - industry
+  #   detail: >
+  #     <p>In this collaborative project among Samsung Research, SNU HCI+d Lab, and
+  #     Yonsei university, we aimed to
+  #         design a coherent visual identity for Bixby: a smart agent deployed to Samsung appliances.<br><br></p>
+  #     <p>During the study, I took part in developing prototypes and conducting
+  #     user experiment.</p>
 
-      <img src='site.baseurl/assets/images/project_detail/bixby.jpg' class='img-responsive'
-      alt='Bixby project image'>
+  #     <img src='site.baseurl/assets/images/project_detail/bixby.jpg' class='img-responsive'
+  #     alt='Bixby project image'>
 
-      <p style='text-align: center;'><b>Example screen we used
-      during the user study</b></p>
+  #     <p style='text-align: center;'><b>Example screen we used
+  #     during the user study</b></p>
 
-      <hr>
+  #     <hr>
 
-      <p><b>[My role in this project]</b><br>Prototype development, running
-      experiment, writing</p>
-    tags:
-      - Industry
-      - Experiment
-    image: bixby.jpg
-    title: 'Samsung Bixby'
-    description: Setting up coherent visual identities for Samsung Bixby system
-    id: bixby
+  #     <p><b>[My role in this project]</b><br>Prototype development, running
+  #     experiment, writing</p>
+  #   tags:
+  #     - Industry
+  #     - Experiment
+  #   image: bixby.jpg
+  #   title: 'Samsung Bixby'
+  #   description: Setting up coherent visual identities for Samsung Bixby system
+  #   id: bixby
   - category: schoolwork
     detail: >
       <p>I've been working as an iOS developer in a local micro-mobility sharing
@@ -827,212 +827,296 @@ project:
       2020 Digital Ethnography course (written in Korean)
     paper: spring2020_digital-ethnography_report.pdf
     id: spring2020digiethno
-  - detail: >
-      <p>Although text-based conversational agents (chatbots) have a great
-      potential of journaling diets and managing one's
+  # - detail: >
+  #     <p>Although text-based conversational agents (chatbots) have a great
+  #     potential of journaling diets and managing one's
 
-      health, it is suffering from the low acceptance of users. To overcome this,
-      we proposed an idea of <b>applying the persona of real world caregivers into
-      the chatbot</b>.<br><br></p>
+  #     health, it is suffering from the low acceptance of users. To overcome this,
+  #     we proposed an idea of <b>applying the persona of real world caregivers into
+  #     the chatbot</b>.<br><br></p>
 
-      <p>Working with <a href='https://youjin-h.github.io'>Youjin Hwang</a>, we
-      conducted a series of studies regarding this topic. Specifically, in this
-      study, we identified several important linguistic features that make users
-      perceive a chatbot as a real person. (MobileHCI '20 Late-Breaking Result)</p>
+  #     <p>Working with <a href='https://youjin-h.github.io'>Youjin Hwang</a>, we
+  #     conducted a series of studies regarding this topic. Specifically, in this
+  #     study, we identified several important linguistic features that make users
+  #     perceive a chatbot as a real person. (MobileHCI '20 Late-Breaking Result)</p>
 
-      <img src='site.baseurl/assets/images/project_detail/prp.jpg' class='img-responsive'
-      alt='MobileHCI project image'>
+  #     <img src='site.baseurl/assets/images/project_detail/prp.jpg' class='img-responsive'
+  #     alt='MobileHCI project image'>
 
-      <hr>
+  #     <hr>
 
-      <p><b>[My role in this project]</b><br>Writing</p>
-    tags:
-      - Research
-      - <i class='fas fa-book'></i>&nbsp; MobileHCI '20
-      - Chatbot
-    image: prp.jpg
-    title: PRP
-    description: >-
-      Understanding which linguistic features contribute to forming a persona of a
-      chatbot
-    paper: mobilehci2020_prp_poster.pdf
-    id: prp
-  - detail: >
-      <p>Although text-based conversational agents (chatbots) have a great
-      potential of journaling diets and managing one's
+  #     <p><b>[My role in this project]</b><br>Writing</p>
+  #   tags:
+  #     - Research
+  #     - <i class='fas fa-book'></i>&nbsp; MobileHCI '20
+  #     - Chatbot
+  #   image: prp.jpg
+  #   title: PRP
+  #   description: >-
+  #     Understanding which linguistic features contribute to forming a persona of a
+  #     chatbot
+  #   paper: mobilehci2020_prp_poster.pdf
+  #   id: prp
+  # - detail: >
+  #     <p>Although text-based conversational agents (chatbots) have a great
+  #     potential of journaling diets and managing one's
 
-      health, it is suffering from the low acceptance of users. To overcome this,
-      we proposed an idea of <b>applying the persona of real world caregivers into
-      the chatbot</b>.<br><br></p>
+  #     health, it is suffering from the low acceptance of users. To overcome this,
+  #     we proposed an idea of <b>applying the persona of real world caregivers into
+  #     the chatbot</b>.<br><br></p>
 
-      <p>Led by <a href='https://youjin-h.github.io'>Youjin Hwang</a>, we
-      conducted a series of studies regarding this topic. Specifically, in this
-      study, we
+  #     <p>Led by <a href='https://youjin-h.github.io'>Youjin Hwang</a>, we
+  #     conducted a series of studies regarding this topic. Specifically, in this
+  #     study, we
 
-      aimed to <b>compare user perception on personas (doctor, family member, and
-      w/o persona) applied to a chatbot</b>. Although this work is done with
+  #     aimed to <b>compare user perception on personas (doctor, family member, and
+  #     w/o persona) applied to a chatbot</b>. Although this work is done with
 
-      Wizard-of-Oz methodology, we expect that the findings would be extensible to
-      automated cases with ML.<br><br></p>
+  #     Wizard-of-Oz methodology, we expect that the findings would be extensible to
+  #     automated cases with ML.<br><br></p>
 
-      <p>This study was presented in <a
-      href='https://dl.acm.org/doi/10.1145/3334480.3375154'>CHI 2020 Workshop</a>
-      (Conversational Agents for Health and Wellbeing).</p>
+  #     <p>This study was presented in <a
+  #     href='https://dl.acm.org/doi/10.1145/3334480.3375154'>CHI 2020 Workshop</a>
+  #     (Conversational Agents for Health and Wellbeing).</p>
 
-      <img src='site.baseurl/assets/images/project_detail/personabot.jpg' class='img-responsive'
-      alt='Personabot project image'>
+  #     <img src='site.baseurl/assets/images/project_detail/personabot.jpg' class='img-responsive'
+  #     alt='Personabot project image'>
 
-      <p style='text-align: center;'><b>Three personas applied to
-      a chatbot</b></p>
+  #     <p style='text-align: center;'><b>Three personas applied to
+  #     a chatbot</b></p>
 
-      <hr>
+  #     <hr>
 
-      <p><b>[My role in this project]</b><br>System development, running
-      experiment, writing</p>
-    tags:
-      - <i class='fas fa-book'></i>&nbsp; CHI '20
-      - Research
-      - Chatbot
-    image: personabot.jpg
-    title: PersonaBot
-    description: Applying the persona of user's caregivers to health-managing chatbots
-    paper: chi2020_personabot_workshop.pdf
-    id: personabot
-  - category:
-      - industry
+  #     <p><b>[My role in this project]</b><br>System development, running
+  #     experiment, writing</p>
+  #   tags:
+  #     - <i class='fas fa-book'></i>&nbsp; CHI '20
+  #     - Research
+  #     - Chatbot
+  #   image: personabot.jpg
+  #   title: PersonaBot
+  #   description: Applying the persona of user's caregivers to health-managing chatbots
+  #   paper: chi2020_personabot_workshop.pdf
+  #   id: personabot
+  # - category:
+  #     - industry
+  #   detail: >
+  #     <p>Juvis is a Korean diet-managing company. In order to give enough
+  #     information and lead users to successfully book a reservation,
+
+  #     we designed a chatbot. This experience led me to learn how we might design a
+  #     chatbot, and this motivated me to design a chatbot in my
+
+  #     another project on <a
+  #     href='site.baseurl/assets/pdf/chi2020_personabot_workshop.pdf'>applying the
+  #     persona on a chatbot</a>.</p>
+
+  #     <img src='site.baseurl/assets/images/project_detail/juvis.jpg' class='img-responsive'
+  #     alt='Juvis project image'>
+
+  #     <p style='text-align: center;'><b>Keyscreens of Juvis
+  #     chatbot</b></p>
+
+  #     <hr>
+
+  #     <p><b>[My role in this project]</b><br>System development</p>
+  #   tags:
+  #     - Industry
+  #     - Chatbot
+  #   image: juvis.jpg
+  #   title: Juvis J Bot
+  #   description: >-
+  #     A chatbot agent for offering a health information & inducing an enrollment
+  #     of Juvis, a Korean diet managing company
+  #   link: 'http://www.juvis.co.kr'
+  #   id: juvis
+  # - category:
+  #     - industry
+  #   detail: >
+  #     <p>For more than 2 years, I've been working as an iOS developer in Elecle, a
+  #     Korean electric mobility-sharing startup.<br><br></p>
+
+  #     <p>Since every single step of renting a mobility device and returing it is
+  #     done in a mobile app, mobile app development
+  #         is considered extremely crucial in mobility sharing services. Thus, we have put much emphasis on increasing
+  #         usability and usefulness of the mobile app for end-users and devised various interaction methods within
+  #         our app.<br><br></p>
+  #     <p>Elecle is currently available in more than 5 cities in Korea, including
+  #     Seoul, Suwon, Bucheon, Gimpo, and Sejong.</p>
+
+  #     <img src='site.baseurl/assets/images/project_detail/elecle-riding.jpg' class='img-responsive'
+  #     alt='Me with an Elecle bike'>
+
+  #     <p style='text-align: center;'><b>Me with an Elecle bike
+  #     XD</b></p>
+
+  #     <img src='site.baseurl/assets/images/project_detail/elecle.jpg' class='img-responsive'
+  #     alt='Elecle image'>
+
+  #     <p style='text-align: center;'><b>Keyscreens of Elecle iOS
+  #     app</b></p>
+
+  #     <hr>
+
+  #     <p><b>[My role in this project]</b><br>System development, design
+  #     ideation</p>
+  #   tags:
+  #     - Startup
+  #     - iOS
+  #     - <i class='fa-brands fa-app-store-ios'></i>&nbsp; App Store
+  #   image: elecle.jpg
+  #   title: elecle
+  #   description: 'Elecle: Electric mobility-sharing startup (worked as an iOS developer)'
+  #   appstore: 'https://apps.apple.com/app/id1456461872'
+  #   link: 'https://elecle.bike'
+  #   id: elecle
+  # - category: personal
+  #   detail: >
+  #     <p>It was extremely difficult for me to keep track of the courses I've taken
+  #     during the undergraduate study. I'm surprised that many other friends also
+  #     fased similar problem.<br><br></p>
+
+  #     <p>To make this process hassle-free, I made an iOS app called <b>ECE
+  #     grad</b>. Using this application, undergrads in ECE department may easily
+  #     track their previously taken courses. Plus, this also shows how many credits
+  #     they should additionally take. Plus, this system automatically visualizes
+  #     the history and show some cheer-up messages for inducing students to take
+  #     courses and keep track of their course history.<br><br></p>
+
+  #     <p>However, some of my friends suggested that it was a bit time-consuming to
+  #     manually add courses into the system. Based on this feedback, in order to
+  #     facilitate the process of entering their previous courses, I added a
+  #     <b>crawling function</b> that automatically crawls the relevant data within
+  #     SNU mypage, by simply entering their ID and password.</p>
+
+  #     <img src='site.baseurl/assets/images/project_detail/ecegrad.jpg' class='img-responsive'
+  #     alt='ECE grad project image'>
+
+  #     <p style='text-align: center;'><b>Keyscreens of ECE
+  #     grad</b></p>
+
+  #     <hr>
+
+  #     <p><b>[My role in this project]</b><br>Independent project</p>
+  #   tags:
+  #     - Personal
+  #     - iOS
+  #   image: ecegrad.jpg
+  #   title: ECE Grad
+  #   description: Graduation managing app for SNU ECE undergrads
+  #   appstore: 'https://apps.apple.com/app/id1450808330'
+  #   id: ecegrad
+  # - category: personal
+  #   detail: >
+  #     <p>As I started my internship at HCI+d lab, I found that the website was a
+  #     bit outdated. Thus, I worked with my colleagues to
+
+  #     design the website (based upon the previously designed template) and added
+  #     up the lab members' profile.<br><br></p>
+
+  #     <p>It was a great experience to contribute to the lab with my skillsets!</p>
+
+  #     <img src='site.baseurl/assets/images/project_detail/lab_website.jpg' class='img-responsive'
+  #     alt='Designing a lab website'>
+
+  #     <p style='text-align: center;'><b>My profiile here
+  #     :)</b></p>
+
+  #     <hr>
+
+  #     <p><b>[My role in this project]</b><br>Development, design</p>
+  #   tags:
+  #     - Design
+  #     - Web
+  #   image: lab_website.jpg
+  #   title: HCI+d Website
+  #   description: Designing & developing a website for HCI+d Lab.
+  #   link: 'http://hcid.snu.ac.kr'
+  #   id: hcidweb
+  - category: schoolwork
     detail: >
-      <p>Juvis is a Korean diet-managing company. In order to give enough
-      information and lead users to successfully book a reservation,
+      <p>SRT2025<br><br></p>
 
-      we designed a chatbot. This experience led me to learn how we might design a
-      chatbot, and this motivated me to design a chatbot in my
+      <p>Our team won the grand prize in the course and won $4,000, and a full fund to participate in ISSCC 2025!</p>
 
-      another project on <a
-      href='site.baseurl/assets/pdf/chi2020_personabot_workshop.pdf'>applying the
-      persona on a chatbot</a>.</p>
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='SRT2025'>
 
-      <img src='site.baseurl/assets/images/project_detail/juvis.jpg' class='img-responsive'
-      alt='Juvis project image'>
-
-      <p style='text-align: center;'><b>Keyscreens of Juvis
-      chatbot</b></p>
-
-      <hr>
-
-      <p><b>[My role in this project]</b><br>System development</p>
-    tags:
-      - Industry
-      - Chatbot
-    image: juvis.jpg
-    title: Juvis J Bot
-    description: >-
-      A chatbot agent for offering a health information & inducing an enrollment
-      of Juvis, a Korean diet managing company
-    link: 'http://www.juvis.co.kr'
-    id: juvis
-  - category:
-      - industry
-    detail: >
-      <p>For more than 2 years, I've been working as an iOS developer in Elecle, a
-      Korean electric mobility-sharing startup.<br><br></p>
-
-      <p>Since every single step of renting a mobility device and returing it is
-      done in a mobile app, mobile app development
-          is considered extremely crucial in mobility sharing services. Thus, we have put much emphasis on increasing
-          usability and usefulness of the mobile app for end-users and devised various interaction methods within
-          our app.<br><br></p>
-      <p>Elecle is currently available in more than 5 cities in Korea, including
-      Seoul, Suwon, Bucheon, Gimpo, and Sejong.</p>
-
-      <img src='site.baseurl/assets/images/project_detail/elecle-riding.jpg' class='img-responsive'
-      alt='Me with an Elecle bike'>
-
-      <p style='text-align: center;'><b>Me with an Elecle bike
-      XD</b></p>
-
-      <img src='site.baseurl/assets/images/project_detail/elecle.jpg' class='img-responsive'
-      alt='Elecle image'>
-
-      <p style='text-align: center;'><b>Keyscreens of Elecle iOS
-      app</b></p>
-
-      <hr>
-
-      <p><b>[My role in this project]</b><br>System development, design
-      ideation</p>
-    tags:
-      - Startup
-      - iOS
-      - <i class='fa-brands fa-app-store-ios'></i>&nbsp; App Store
-    image: elecle.jpg
-    title: elecle
-    description: 'Elecle: Electric mobility-sharing startup (worked as an iOS developer)'
-    appstore: 'https://apps.apple.com/app/id1456461872'
-    link: 'https://elecle.bike'
-    id: elecle
-  - category: personal
-    detail: >
-      <p>It was extremely difficult for me to keep track of the courses I've taken
-      during the undergraduate study. I'm surprised that many other friends also
-      fased similar problem.<br><br></p>
-
-      <p>To make this process hassle-free, I made an iOS app called <b>ECE
-      grad</b>. Using this application, undergrads in ECE department may easily
-      track their previously taken courses. Plus, this also shows how many credits
-      they should additionally take. Plus, this system automatically visualizes
-      the history and show some cheer-up messages for inducing students to take
-      courses and keep track of their course history.<br><br></p>
-
-      <p>However, some of my friends suggested that it was a bit time-consuming to
-      manually add courses into the system. Based on this feedback, in order to
-      facilitate the process of entering their previous courses, I added a
-      <b>crawling function</b> that automatically crawls the relevant data within
-      SNU mypage, by simply entering their ID and password.</p>
-
-      <img src='site.baseurl/assets/images/project_detail/ecegrad.jpg' class='img-responsive'
-      alt='ECE grad project image'>
-
-      <p style='text-align: center;'><b>Keyscreens of ECE
-      grad</b></p>
-
-      <hr>
-
-      <p><b>[My role in this project]</b><br>Independent project</p>
-    tags:
-      - Personal
-      - iOS
-    image: ecegrad.jpg
-    title: ECE Grad
-    description: Graduation managing app for SNU ECE undergrads
-    appstore: 'https://apps.apple.com/app/id1450808330'
-    id: ecegrad
-  - category: personal
-    detail: >
-      <p>As I started my internship at HCI+d lab, I found that the website was a
-      bit outdated. Thus, I worked with my colleagues to
-
-      design the website (based upon the previously designed template) and added
-      up the lab members' profile.<br><br></p>
-
-      <p>It was a great experience to contribute to the lab with my skillsets!</p>
-
-      <img src='site.baseurl/assets/images/project_detail/lab_website.jpg' class='img-responsive'
-      alt='Designing a lab website'>
-
-      <p style='text-align: center;'><b>My profiile here
+      <p style='text-align: center;'><b>Picture of SRT2025 participants
       :)</b></p>
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>Development, design</p>
+      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor using TCAD</p>
     tags:
-      - Design
-      - Web
-    image: lab_website.jpg
-    title: HCI+d Website
-    description: Designing & developing a website for HCI+d Lab.
-    link: 'http://hcid.snu.ac.kr'
-    id: hcidweb
+      - Coursework
+    image: music_stand.jpg
+    title: Gongwoo 
+    description: Gongwoo
+    id: Gongwoo
+  - category: schoolwork
+    detail: >
+      <p>SRT2025<br><br></p>
+
+      <p>Our team won the grand prize in the course and won $4,000, and a full fund to participate in ISSCC 2025!</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>Picture of SRT2025 participants
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor using TCAD</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: Gongwoo 
+    description: Gongwoo
+    id: Gongwoo
+  - category: schoolwork
+    detail: >
+      <p>SRT2025<br><br></p>
+
+      <p>Our team won the grand prize in the course and won $4,000, and a full fund to participate in ISSCC 2025!</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>Picture of SRT2025 participants
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor using TCAD</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: Flasher Deployment System
+    description: Biorobotics Lab
+    id: Flasher
+  - category: schoolwork
+    detail: >
+      <p>SRT2025<br><br></p>
+
+      <p>Our team won the grand prize in the course and won $4,000, and a full fund to participate in ISSCC 2025!</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>Picture of SRT2025 participants
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor using TCAD</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: Wall Climbing Platform
+    description: Biorobotics Lab
+    id: Wall_Climbing
   - category: schoolwork
     detail: >
       <p>SRT2025<br><br></p>
@@ -1060,18 +1144,24 @@ project:
 
       <p>SRT2025</p>
 
-      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      <img src='site.baseurl/assets/images/project_detail/SRT_group.jpg' class='img-responsive'
       alt='SRT2025'>
 
-      <p style='text-align: center;'><b>Picture of SRT2025 participants
-      :)</b></p>
+      <p style='text-align: center;'><b>Picture of SRT2025 participants</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/SRT_me.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>Picture of me making a presentation on Korea's Must-go places</b></p>
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>Vice president</p>
+      <p><b>[My role in this project]</b><br>Vice president of the 2025 Korean SRT delegates</p>
     tags:
-      - Coursework
-    image: music_stand.jpg
+      - Club Activity
+      - Leadership
+      - International
+    image: SRT logo.jpg
     title: SRT2025
     description: SRT2025
     id: SRT2025
@@ -1090,6 +1180,12 @@ project:
       <p style='text-align: center;'><b>A picture of the finished product
       :)</b></p>
 
+      <img src='site.baseurl/assets/images/project_detail/Mechatronics_group.jpg' class='img-responsive'
+      alt='Group'>
+
+      <img src='site.baseurl/assets/images/project_detail/Mechatronics_me.jpg' class='img-responsive'
+      alt='Me'>
+
       <hr>
 
       <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
@@ -1097,71 +1193,71 @@ project:
       - Coursework
     image: music_stand.jpg
     title: Automatic Music Stand
-    description: Designing and building an automatic music stand
+    description: Recognized for designing and building an automatic music stand
     id: musicstand
+    video: 'https://youtu.be/oFlGlnHRn3k'
+  # - category: schoolwork
+  #   detail: >
+  #     <p>Designed a sensor that changes the frequency with the distance from an object<br><br></p>
+
+  #     <p>Our team won the grand prize in the course and won $2,000!</p>
+
+  #     <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+  #     alt='Automatic music stand'>
+
+  #     <p style='text-align: center;'><b>A picture of the finished product
+  #     :)</b></p>
+
+  #     <hr>
+
+  #     <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
+  #   tags:
+  #     - Coursework
+  #   image: music_stand.jpg
+  #   title: Ultrasonic Approach Sensor
+  #   description: Designing a radar sensor
+  #   id: KiCAD
   - category: schoolwork
     detail: >
-      <p>Designed a sensor that changes the frequency with the distance from an object<br><br></p>
+      <p>This was a course competition where we had to build robots that move objects across a field full of obstacles to score points.
+      We built two robots—one to collect the items and one to deploy a slope to reach the scoring areas.
+      I suggested using two slope robots that fit in the starting area as one and split apart during the match, an idea that ended up winning the Creative Award.</p>
 
-      <p>Our team won the grand prize in the course and won $2,000!</p>
-
-      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
-      alt='Automatic music stand'>
-
-      <p style='text-align: center;'><b>A picture of the finished product
-      :)</b></p>
+      <img src='site.baseurl/assets/images/project_detail/CED_group.jpg' class='img-responsive'
+      alt='CED group'>
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
+      <p><b>[My role in this project]</b><br>Team Leader, Designing the slope robots</p>
     tags:
       - Coursework
-    image: music_stand.jpg
-    title: Ultrasonic Approach Sensor
-    description: Designing a radar sensor
-    id: KiCAD
-  - category: schoolwork
-    detail: >
-      <p>Creativity Award<br><br></p>
-
-      <p>Our team won the Creativity Award in the course and won $2,000!</p>
-
-      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
-      alt='Automatic music stand'>
-
-      <p style='text-align: center;'><b>A picture of the finished product
-      :)</b></p>
-
-      <hr>
-
-      <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
-    tags:
-      - Coursework
-    image: music_stand.jpg
-    title: CED
-    description: Creative Engineering Design Second Place
+    image: CED_robot.jpg
+    title: Robocon 2019
+    description: Recognized for design of a split-deploying slope mechanism
     id: CED
-  - category: schoolwork
+  - category: Club Activity
     detail: >
       <p>Designed, constructed the team's first Formula racecar's overall powertrain system from scratch, 
       Held seminar on Finite Element Analysis and Topology optimization using Solidworks,
       Developed a MATLAB program to Optimize the powertrain system by minimizing the load to individual components,
       Mastered fundamental manufacturing skills: Welding(SMAW, TIG), Grinding, Assembling complex mechanical systems<br><br></p>
 
-      <p>Our team won the grand prize in the course and won $2,000!</p>
+      <img src='site.baseurl/assets/images/project_detail/RunToYou_Welding.jpg' class='img-responsive'
+      alt='Welding'>
 
-      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
-      alt='Automatic music stand'>
-
-      <p style='text-align: center;'><b>A picture of the finished product
-      :)</b></p>
+      <p style='text-align: center;'><b>I have 2+ years experience in welding, grinding... basically in all sorts of fabrication!</b></p>
+      
+      <img src='site.baseurl/assets/images/project_detail/RunToYou_Team.jpg' class='img-responsive'
+      alt='Team'>
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
+      <p><b>[My role in this project]</b><br>2020~2021: Formula Powertrain team leader<br>2019~2020: BAJA team engineer</p>
     tags:
-      - Coursework
-    image: music_stand.jpg
+      - Club Activity
+      - Fabrication
+      - Mechanical Design
+    image: RunToYou_me.jpg
     title: RunToYou
-    description: Designing and building an automatic music stand
+    description: The SNU Student Automotive Racing Team
     id: RunToYou
