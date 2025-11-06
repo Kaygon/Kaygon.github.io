@@ -6,6 +6,7 @@ description: Undergraduate Student at Seoul National University
 
 {% assign projects = site.data.project-main.project %}
 {% assign news = site.data.news.list %}
+{% assign artworks = site.data.music.musics %}
 {% assign musics = site.data.music.musics %}
 
 <div class="container pt-3 pb-4">
@@ -19,10 +20,10 @@ description: Undergraduate Student at Seoul National University
                 <p class="mt-3">I am an undergraduate student double majoring in <a href="https://me.snu.ac.kr/en/">Mechanical Engineering</a> and <a href = "https://ece.snu.ac.kr/en">Electrical & Computer Engineering</a> at <a href="https://en.snu.ac.kr/index.html">Seoul National University</a>.
                 I am currently a research intern at <a href = "https://starlab.snu.ac.kr/">SNU Transformative Architecture Laboratory (STAR Lab)</a>, where I study <b>origami structures and metamaterials</b> under professional guidance of <a href = "https://scholar.google.com.sg/citations?user=KkRZ5fwAAAAJ&hl=en">Prof. JKYang</a>.</p>
                 <p>I also visited <a href = "https://www.isas.jaxa.jp/en/">Japan Aerospace Exploration Agency(JAXA) Institute of Space and Aeronautical Science(ISAS)</a> as a visiting student, where I was advised by <a href = "https://scholar.google.com/citations?user=u-amiJoAAAAJ&hl=en">Prof. Hiromi Yasuda</a>. </p>
-                <p>My research interest is in design and control of origami-inspired mechanism, bio-inspired mechanism and 3D printing. For more info, please check out my CV and projects!</p>
+                <p>My research interest is in geometry-controlled design of lightweight and reconfigurable structures, broadly encompassing deployable origami structures, soft materials, bio-inspired actuation, and additive manufacturing. For more info, please check out my CV and projects!</p>
             </div>
             <div class="d-none d-md-block col-12 col-md-4 col-xxl-3 align-self-center text-center">
-                <img src="/assets/images/chaewon_3.jpg" class="w-100" style="max-width: 225px;"/>
+                <img src="/assets/images/chaewon_7.jpg" class="w-100" style="max-width: 300px;"/>
             </div>
         </div>
     </div>
@@ -52,7 +53,7 @@ description: Undergraduate Student at Seoul National University
         <a href="{{ 'project' | relative_url }}" class="view-all">> View All</a>
     </div>
 </div>
-<div class="container">
+<!-- <div class="container">
     <p style="font-weight: 500 !important; text-transform: uppercase;">News</p>
     <div class="row mt-4">
         {% for new in news limit: 4 %}
@@ -67,10 +68,10 @@ description: Undergraduate Student at Seoul National University
     <div class="d-flex flex-row-reverse mt-4">
         <a href="{{ 'news' | relative_url }}" class="view-all">> View All</a>
     </div>
-</div>
+</div> -->
 <div class="container">
     <div class="d-flex flex-row-reverse mt-4">
-        <p class="misc-news"><i class="fa-solid fa-music" style="margin-right: .5rem;"></i>Check out my GarageBand cover of <a href="{{ '/music/' | relative_url }}"><span style="white-space: nowrap;">Girls' Generation</span> - <span style="white-space: nowrap;">Into the New World</span></a></p>
+        <p class="misc-news"><i class="fa-solid fa-rocket" style="margin-right: .5rem;"></i>Check out my Artworks <a href="{{ '/music/' | relative_url }}"><span style="white-space: nowrap;">Girls' Generation</span> - <span style="white-space: nowrap;">Into the New World</span></a></p>
     </div>
 </div>
 
