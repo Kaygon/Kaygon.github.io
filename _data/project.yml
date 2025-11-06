@@ -1035,6 +1035,48 @@ project:
     id: hcidweb
   - category: schoolwork
     detail: >
+      <p>SRT2025<br><br></p>
+
+      <p>Our team won the grand prize in the course and won $4,000, and a full fund to participate in ISSCC 2025!</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>Picture of SRT2025 participants
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor using TCAD</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: Semiconductor Solve-a-thon
+    description: Ministerial Award, Ministry of Education, Republic of Korea
+    id: Semiconductor
+  - category: schoolwork
+    detail: >
+      <p>Northeast Asia Student Round Table, a multinational forum uniting 50+ undergraduates from South Korea, Japan, Taiwan, Mongolia<br><br></p>
+
+      <p>SRT2025</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>Picture of SRT2025 participants
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Vice president</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: SRT2025
+    description: SRT2025
+    id: SRT2025
+  - category: schoolwork
+    detail: >
       <p>For the term project in undergraduate course 'Mechatronics', our team built a music stand that automatically 
       turns the music sheets.
       This music stand recognizes the performer's playing and matches it with the preloaded sheet music on the 
@@ -1057,3 +1099,69 @@ project:
     title: Automatic Music Stand
     description: Designing and building an automatic music stand
     id: musicstand
+  - category: schoolwork
+    detail: >
+      <p>Designed a sensor that changes the frequency with the distance from an object<br><br></p>
+
+      <p>Our team won the grand prize in the course and won $2,000!</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='Automatic music stand'>
+
+      <p style='text-align: center;'><b>A picture of the finished product
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: Ultrasonic Approach Sensor
+    description: Designing a radar sensor
+    id: KiCAD
+  - category: schoolwork
+    detail: >
+      <p>Creativity Award<br><br></p>
+
+      <p>Our team won the Creativity Award in the course and won $2,000!</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='Automatic music stand'>
+
+      <p style='text-align: center;'><b>A picture of the finished product
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: CED
+    description: Creative Engineering Design Second Place
+    id: CED
+  - category: schoolwork
+    detail: >
+      <p>Designed, constructed the team's first Formula racecar's overall powertrain system from scratch, 
+      Held seminar on Finite Element Analysis and Topology optimization using Solidworks,
+      Developed a MATLAB program to Optimize the powertrain system by minimizing the load to individual components,
+      Mastered fundamental manufacturing skills: Welding(SMAW, TIG), Grinding, Assembling complex mechanical systems<br><br></p>
+
+      <p>Our team won the grand prize in the course and won $2,000!</p>
+
+      <img src='site.baseurl/assets/images/project_detail/music_stand.jpg' class='img-responsive'
+      alt='Automatic music stand'>
+
+      <p style='text-align: center;'><b>A picture of the finished product
+      :)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Designing the mechanism for turning the pages</p>
+    tags:
+      - Coursework
+    image: music_stand.jpg
+    title: RunToYou
+    description: Designing and building an automatic music stand
+    id: RunToYou
