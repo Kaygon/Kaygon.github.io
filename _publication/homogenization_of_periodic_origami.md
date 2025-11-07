@@ -1,13 +1,16 @@
 ---
 layout: publication
-title: "Size Dependent Behaviors of Miura-Ori Structure"
+title: "Homogenization of Periodic Origami Structures"
 year: 2025
 month: 3
 authors:
-  - Chaewon Baek
   - Hiromi Yasuda
+  - Chaewon Baek
   - Tomohiro Tachi
+  - Daiki Ueda
   - Jinkyu Yang
+  - Kenji Minesugi
+  - Kosei Ishimura
 venue: arXiv
 note: In preparation
 venue_full: "arXiv"
