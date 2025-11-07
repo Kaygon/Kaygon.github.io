@@ -1,10 +1,10 @@
 artworks:
   - title: SRT Logo
-    image: SRT Logo.jpg
+    image: SRT_Logo.jpg
     artist: Chaewon Baek
     Date: "2025"
     detail: >
-      <img src='site.baseurl/assets/images/artworks/SRT Logo.jpg' class='img-responsive' alt='Logo'>
+      <img src='site.baseurl/assets/images/artworks/SRT_Logo.jpg' class='img-responsive' alt='Logo'>
 
       <hr>
 
