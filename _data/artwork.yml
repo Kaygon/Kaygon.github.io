@@ -4,7 +4,7 @@ artworks:
     artist: Chaewon Baek
     Date: "2025"
     detail: >
-      <img src='site.baseurl/assets/images/artworks/SRT_Logo.jpg' class='img-responsive' alt='Logo'>
+      <img src='site.baseurl/assets/images/artworks/SRT_logo.jpg' class='img-responsive' alt='Logo'>
 
       <hr>
 
