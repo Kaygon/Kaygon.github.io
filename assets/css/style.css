@@ -655,3 +655,58 @@ a>.coauthor:hover {
 .misc-news {
   font-size: .9rem;
 }
+
+.sidenote {
+  display: block;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  background-color: #e8e8e8;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.sidenote-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.sidenote-text {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* ensure smaller screens behave well */
+@media (max-width: 768px) {
+  .sidenote {
+    padding: 0.75rem;
+  }
+}
+
+.article-column .sidenote {
+  display: block;
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box;
+  background-color: #e8e8e8;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+/* ensure internal elements don't introduce horizontal gaps */
+.article-column .sidenote .sidenote-title,
+.article-column .sidenote .sidenote-text {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* responsive tweak */
+@media (max-width: 768px) {
+  .article-column .sidenote {
+    padding: 0.75rem;
+  }
+}
