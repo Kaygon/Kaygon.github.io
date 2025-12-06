@@ -1117,24 +1117,52 @@ project:
   #   title: Wall Climbing Platform
   #   description: Biorobotics Lab
   #   id: Wall_Climbing
-  - category: schoolwork
+  - category: research
     detail: >
-      <p>Our team won the grand prize in the course and won $4,000, and a full fund to participate in ISSCC 2025!</p>
-
+      <p>Our team modeled the parasitic resistance and capacitance in GAAFET and FinFET transistors through analytical approximation.
+      Through this, we validated that the overall AC performance of GAAFET is superior to FinFET.
+      We also optimized the geometric parameters of GAAFET device using analytical models to reduce both parasitic resistance and capacitance, 
+      minimizing the RC product and enhancing AC performance. This work was presented in the semiconductor solve-a-thon hosted by the Korea Institute for Advancement of Technology (KIAT),
+      earning us the Ministerial Award and $4,000 from the Ministry of Education. In addition, we were given a full funding to participate in ISSCC 2025, 
+      and received government-funded short-term technical industry training in the U.S. at Purdue University, Stanford university, UC Berkeley, Lam Research, Synopsys, Nvidia, and Samsung.</p>
       <img src='site.baseurl/assets/images/project_detail/solvathon.jpg' class='img-responsive'
       alt='SRT2025'>
 
-      <p style='text-align: center;'><b>Picture of our team</b></p>
+      <p style='text-align: center;'><b>Picture of our team with Ministerial Award!</b></p>
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor using TCAD</p>
+      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor's parasitic resistance</p>
     tags:
-      - Coursework
+      - Research Project
+      - Lab internship
+      - Semiconductor
     image: GAAFET.png
-    title: Semiconductor Solve-a-thon
+    title: Improving AC performance of GAAFET transistors through geometric optimization
     description: Ministerial Award, Ministry of Education, Republic of Korea
     id: Semiconductor
+  - category: research
+    detail: >
+      <p>I designed and built a lightweight climbing platform using rotary microspines with urethane rubber based soft polymer flexures.
+      The soft polymer flexures provide compliance and adaptability to uneven surfaces, while the microspines ensure secure attachment to various wall textures.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL_1.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>A single rotary microspine unit with urethane rubber based soft polymer flexures</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Practically every part of the project was done by me.</p>
+    tags:
+      - Research Project
+      - Lab internship
+      - Biorobotics
+    image: BRL_2.jpg
+    slide: BRL_Chaewon.pdf
+    title: Design of lightweight wall-climbing platform using soft polymer flexure based rotary microspine structures
+    description: Research project in Biorobotics Lab, Prof. Kyu-Jin Cho
+    id: BRL
   - category: schoolwork
     detail: >
       <p>Northeast Asia Student Round Table, a multinational forum uniting 50+ undergraduates from South Korea, Japan, Taiwan, Mongolia<br><br></p>
