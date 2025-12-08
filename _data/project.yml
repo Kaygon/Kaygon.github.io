@@ -1117,62 +1117,28 @@ project:
   #   title: Wall Climbing Platform
   #   description: Biorobotics Lab
   #   id: Wall_Climbing
-  - category: research
+  - category: Club Activity
     detail: >
-      <p>Our team modeled the parasitic resistance and capacitance in GAAFET and FinFET transistors through analytical approximation.
-      Through this, we validated that the overall AC performance of GAAFET is superior to FinFET.
-      We also optimized the geometric parameters of GAAFET device using analytical models to reduce both parasitic resistance and capacitance, 
-      minimizing the RC product and enhancing AC performance. This work was presented in the semiconductor solve-a-thon hosted by the Korea Institute for Advancement of Technology (KIAT),
-      earning us the Ministerial Award and $4,000 from the Ministry of Education. In addition, we were given a full funding to participate in ISSCC 2025, 
-      and received government-funded short-term technical industry training in the U.S. at Purdue University, Stanford university, UC Berkeley, Lam Research, Synopsys, Nvidia, and Samsung.</p>
-      <img src='site.baseurl/assets/images/project_detail/solvathon.jpg' class='img-responsive'
+      <p>As vice president of SRT 2025, I oversaw an eight-day program for over fifty undergraduates from four countries.
+      Since the event had not been held in Korea for eight years, our team rebuilt the entire program from scratch,
+      coordinating everything from cultural activities to participants' diverse needs.
+      <img src='site.baseurl/assets/images/project_detail/SRT_team_1.jpg' class='img-responsive'
       alt='SRT2025'>
-
-      <p style='text-align: center;'><b>Picture of our team with Ministerial Award!</b></p>
-
-      <hr>
-
-      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor's parasitic resistance</p>
-    tags:
-      - Research Project
-      - Lab internship
-      - Semiconductor
-    image: GAAFET.png
-    title: Improving AC performance of GAAFET transistors through geometric optimization
-    description: Ministerial Award, Ministry of Education, Republic of Korea
-    id: Semiconductor
-  - category: research
-    detail: >
-      <p>I designed and built a lightweight climbing platform using rotary microspines with urethane rubber based soft polymer flexures.
-      The soft polymer flexures provide compliance and adaptability to uneven surfaces, while the microspines ensure secure attachment to various wall textures.</p>
-
-      <img src='site.baseurl/assets/images/project_detail/BRL_1.jpg' class='img-responsive'
-      alt='SRT2025'>
-
-      <p style='text-align: center;'><b>A single rotary microspine unit with urethane rubber based soft polymer flexures</b></p>
-
-      <hr>
-
-      <p><b>[My role in this project]</b><br>Practically every part of the project was done by me.</p>
-    tags:
-      - Research Project
-      - Lab internship
-      - Biorobotics
-    image: BRL_2.jpg
-    slide: BRL_Chaewon.pdf
-    title: Design of lightweight wall-climbing platform using soft polymer flexure based rotary microspine structures
-    description: Research project in Biorobotics Lab, Prof. Kyu-Jin Cho
-    id: BRL
-  - category: schoolwork
-    detail: >
-      <p>Northeast Asia Student Round Table, a multinational forum uniting 50+ undergraduates from South Korea, Japan, Taiwan, Mongolia<br><br></p>
-
-      <p>SRT2025</p>
-
+      <p style='text-align: center;'><b>Our team after a long team meeting, about two weeks before the actual forum</b></p>
+      The forum included multiple discussions on social problems in Northeast Asian countries, field trips to historical sites, and cultural exchange events. 
+      
       <img src='site.baseurl/assets/images/project_detail/SRT_group.jpg' class='img-responsive'
       alt='SRT2025'>
 
-      <p style='text-align: center;'><b>Picture of SRT2025 participants</b></p>
+      <p style='text-align: center;'><b>SRT2025 participants on their first day to Korea</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/SRT_group_2.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>SRT2025 participants at Gyeongbokgung, Joseon dynasty's main palace</b></p>
+      I learned that large-scale leadership depends on the ability to communicate under pressure and align people toward a shared purpose,
+      skills essential to a collaborative research environment. A huge thanks to all the participants in 2025 SRT!
+      And kudos to everyone in our team who worked hard to put the event together!</p>
 
       <img src='site.baseurl/assets/images/project_detail/SRT_me.jpg' class='img-responsive'
       alt='SRT2025'>
@@ -1187,9 +1153,180 @@ project:
       - Leadership
       - International
     image: SRT logo.jpg
-    title: SRT2025
-    description: SRT2025
+    title: Northeast Asia Student Round Table (SRT) 2025
+    description: A multinational forum uniting 50+ undergraduates from South Korea, Japan, Taiwan, Mongolia
     id: SRT2025
+  - category: Club Activity
+    detail: >
+      <p><a href="https://www.gongwoo.snu.ac.kr/about-us#greetings">STEM</a> is an honor society for Seoul National University's top engineering students, limited to 20~30 members annually.
+      Our alumni are making significant contributions across academia and industry worldwide.</p>
+
+      <p>As a STEM member, I participated in various activities, including organizing seminars with industry leaders,
+      mentoring junior students, and participating in bi-weekly discussions on cutting-edge engineering topics.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/seminar.jpg' class='img-responsive'
+      alt='Origami Seminar'>
+
+      <p style='text-align: center;'><b>A picture of me giving a biweekly seminar on origami as an art form, its mathematical design principles, and its applications in engineering.
+      The slides are attached for reference.</b></p>
+
+      <p>Our main activities include:</p>
+      <p><b>Vision Exhibition</b>: An event where STEM Members talk about various topics for SNU freshmen and sophomores in the College of Engineering
+      to help younger students navigate academic and career paths in engineering.</p>
+      
+      <p><b>STEM-GLEAP colloquium</b>: A joint seminar with <a href="https://snucnsgleap.wixsite.com/mysite?lang=ko">GLEAP</a>, an honor society in SNU's College of Natural Sciences.</p>
+
+      <p><b>SRT</b>: A multinational forum uniting 50+ undergraduates from South Korea, Japan, Taiwan, Mongolia. More descriptions can be found in a separate project.</p>
+
+      <hr>
+
+      <p><b>[My role in this club]</b><br>Vice president, 2025 SRT in Korea<br>
+      Invited speaker, Biweekly Seminar, <i>Origami: Bridging Art, Mathematics, and Engineering</i>, 30+ STEM students<br>
+      Invited speaker, Vision Exhibition, <i>The Art of Folding</i>, 50+ SNU undergraduates<br>
+      Invited speaker, STEM-GLEAP colloquium, <i>Size Dependent Behaviors of Miura-ori Structure; Internship Experience at JAXA</i>, 40+ STEM and GLEAP students<br>
+      Invited speaker, Biweekly Seminar, <i>The Art of Folding in Engineering</i>, 30+ STEM students</p>
+    tags:
+      - Club Activity
+      - Leadership
+      - Seminar
+      - International
+    image: STEM.png
+    slide: Origami_Bridging_Art_Mathematics_Engineering_For_Distribution.pdf
+    title: SNU Tomorrow's Edge Membership (STEM)
+    description: A highly prestigious honor society within the College of Engineering at Seoul National University
+    id: STEM
+  - category: research
+    detail: >
+      <p>Our team modeled the parasitic resistance and capacitance in GAAFET and FinFET transistors through analytical approximation.
+      Through this, we validated that the overall AC performance of GAAFET is superior to FinFET.
+      We also optimized the geometric parameters of GAAFET device using analytical models to reduce both parasitic resistance and capacitance, 
+      minimizing the RC product and enhancing AC performance. This work was presented in the semiconductor solve-a-thon hosted by the Korea Institute for Advancement of Technology (KIAT),
+      earning us the Ministerial Award and $4,000 from the Ministry of Education. 
+      
+      <img src='site.baseurl/assets/images/project_detail/solvathon.jpg' class='img-responsive'
+      alt='SRT2025'>
+
+      <p style='text-align: center;'><b>Picture of our team with Ministerial Award!</b></p>
+
+      <hr>
+      
+      In addition, we were given a full funding to participate in ISSCC 2025, 
+      and received government-funded short-term technical industry training in the U.S. at Purdue University, Stanford university, UC Berkeley, Lam Research, Synopsys, Nvidia, and Samsung.</p>
+      
+
+      <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor's parasitic resistance</p>
+    tags:
+      - Research Project
+      - Lab internship
+      - Semiconductor
+    image: GAAFET.png
+    title: Improving AC performance of GAAFET transistors through geometric optimization
+    description: Ministerial Award, Ministry of Education, Republic of Korea
+    id: Semiconductor
+  - category: research
+    detail: >
+      <p>The robotic leg is based on a bistable waterbomb-base structure, which possesses two stable equilibria—a folded state and an extended state—separated by an unstable transition state corresponding to the fully unfolded configuration of the base.
+      Although the extended state corresponds to a partially folded waterbomb base, it appears as the fully deployed posture of the leg.
+      Using rigid-origami kinematics and loop-closure constraints developed by Prof. Tachi, I constructed a simulation that visualizes the snap-through motion between these states.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/folded.gif' class='img-responsive'
+      alt='Folding of robot leg to folded configuration'>
+
+      <p style='text-align: center;'><b>Snap-through transition from the transition state into the folded state.</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/unfolded.gif' class='img-responsive'
+      alt='Folding of robot leg to unfolded configuration'>
+
+      <p style='text-align: center;'><b>Snap-through transition from the transition state into the extended state.</b></p>
+
+      <p>To further characterize the mechanism, I modeled each crease as a linear torsional spring and computed the resulting energy landscape. In this model, the configuration with
+      \( \rho_3=0 \) represents the fully unfolded transition state, while the endpoints of each energy curve correspond to the folded and extended stable states
+      (\( \rho_3=0 \) represents the folding angle of the center crease and \( \kappa \) the torsional constant of the springs; for detailed explanation, please refer to the attached report).
+      The high energy at \( \rho_3=0 \) confirms that this configuration is the energy maximum, demonstrating the bistable nature of the structure.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/graph.png' class='img-responsive'
+      alt='Graph'>
+
+      <p style='text-align: center;'><b>Energy landscape of the structure.</b></p>
+
+      <p>I also fabricated the prototypes using 3D printing, and the kinematic transitions were experimentally validated in a thick-origami implementation.
+      A locking behavior was observed when a force was applied to the end of the leg in its folded state, indicating the need for a more detailed force analysis.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/prototype_folded.jpg' class='img-responsive'
+      alt='Graph'>
+
+      <p style='text-align: center;'><b>Fabricated prototype.</b></p>
+
+      The graph below shows the trajectory of the endpoint of the leg during the snap-through transition, obtained from the kinematic simulation.
+      These trajectories are very sensitive to the geometric parameters of the structure, and can be further optimized for specific applications such as robotic locomotion through data-driven approaches.
+      <img src='site.baseurl/assets/images/project_detail/trajectory.png' class='img-responsive'
+      alt='trajectory'>
+
+      <p style='text-align: center;'><b>Trajectory of the endpoint.</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Practically every part of the project</p>
+    tags:
+      - Research Project
+      - Lab internship
+      - Origami robotics
+    image: folded_config.png
+    slide: STAR_Report.pdf
+    title: Leaf-out inspired bistable robot leg
+    description: Research project in SNU Transformative Architecture (STAR) Lab, Prof. Jinkyu Yang
+    id: BRL
+  - category: research
+    detail: >
+      <p>I designed and built a lightweight climbing platform using rotary microspines with urethane rubber based soft polymer flexures.
+      The soft polymer flexures provide compliance and adaptability to uneven surfaces, while the microspines ensure secure attachment to various wall textures.
+      This work was done during my undergraduate internship in the Biorobotics Laboratory at Seoul National University, under Prof. Kyu-Jin Cho.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL_1.jpg' class='img-responsive'
+      alt='microspine unit'>
+
+      <p style='text-align: center;'><b>A single rotary microspine unit with urethane rubber based soft polymer flexures</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Practically every part of the project</p>
+    tags:
+      - Research Project
+      - Lab internship
+      - Soft robotics
+    image: BRL_2.jpg
+    slide: BRL_Chaewon.pdf
+    title: Lightweight wall-climbing platform using soft polymer flexure based rotary microspine structures
+    description: Research project in Biorobotics Lab, Prof. Kyu-Jin Cho
+    id: BRL
+  - category: research
+    detail: >
+      <p>Although the Flasher structure enables compact folding of a two-dimensional surface, no prior work has harnessed its defining characteristic: the rotation of its center during folding.
+      In this research, I exploit this previously overlooked property to develop a torsion-driven mechanism capable of folding and deploying the structure.
+      This work was done during my undergraduate internship in the Biorobotics Laboratory at Seoul National University, under Prof. Kyu-Jin Cho.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/deployment_cropped.gif' class='img-responsive'
+      alt='deployment'>
+
+      <p style='text-align: center;'><b>The structure being deployed</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/folding_cropped.gif' class='img-responsive'
+      alt='folding'>
+
+      <p style='text-align: center;'><b>The structure being folded</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>Practically every part of the project</p>
+    tags:
+      - Research Project
+      - Lab internship
+      - Origami robotics
+    image: flasher.jpg
+    slide: BRL_Chaewon_Flasher.pdf
+    title: Deployment mechanism for flasher structure through torsion
+    description: Research project in Biorobotics Lab, Prof. Kyu-Jin Cho
+    id: BRL2
   - category: schoolwork
     detail: >
       <p>For the term project in undergraduate course 'Mechatronics', our team built a music stand that automatically 
@@ -1277,7 +1414,7 @@ project:
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>2020~2021: Formula Powertrain team leader<br>2019~2020: BAJA team engineer</p>
+      <p><b>[My role in this club]</b><br>2020~2021: Formula Powertrain team leader<br>2019~2020: BAJA team engineer</p>
     tags:
       - Club Activity
       - Fabrication
