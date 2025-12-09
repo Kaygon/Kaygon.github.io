@@ -11,6 +11,7 @@ artworks:
       <p>The logo I designed for 2025 SRT in Seoul</p>
     tags:
       - Design
+      - Club Activity
     description: >-
       Digital Drawing with Inkscape, 2025
     id: SRT
@@ -31,7 +32,7 @@ artworks:
       Design marker and liner on paper, 2023
     id: Fullmetal1
     type: Drawing
-  - title: Edward Elric from Fullmetal Alchemist
+  - title: Edward Elric from <i>Fullmetal Alchemist</i>
     image: Fullmetal_1.jpg
     artist: Original work by Hiromu Arakawa, drawn by Chaewon Baek
     Date: "2023"
@@ -50,7 +51,7 @@ artworks:
       Design marker and liner on paper, 2023
     id: Fullmetal1
     type: Drawing
-  - title: Gally(Alita) from GUNNM(Battle Angel Alita)
+  - title: Gally(Alita) from <i>GUNNM(Battle Angel Alita)</i>
     image: Gunnm.jpg
     artist: Original work by Yukito Kishiro, drawn by Chaewon Baek
     Date: "2022"
@@ -65,6 +66,94 @@ artworks:
     description: >-
       Design marker and liner on paper, 2022
     id: Gunnm
+    type: Drawing
+  - title: Swirl Box
+    image: Swirl_Box_2.jpg
+    artist: Chaewon Baek
+    Date: "2021"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Swirl_Box_2.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Swirl_Box_1.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Swirl_Box_3.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Swirl_Box_4.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <hr>
+
+      <p>I was experimenting with origami tessellations when I became inspired by origami roses to create a hexagonal swirl pattern.
+      After weeks of revisions, I finally developed the swirl and refined the surrounding area to form a neat present box.</p>
+    tags:
+      - Origami
+    description: >-
+      Craft paper, 2021
+    id: motorcycle
+    type: Origami
+  - title: Motorcycle
+    image: Motorcycle_1.jpg
+    artist: Original work by Itagaki Yuichi, folded by Chaewon Baek
+    Date: "2021"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Motorcycle_1.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Motorcycle_4.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Motorcycle_7.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Motorcycle_3.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Motorcycle_5.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <hr>
+
+      <p>Diagram: nonexistent<br>
+      CP: Published in Origami Tandeidan Magazine 139th<br>
+      This piece of art truly means a great deal to me, as it marks the first time I folded a model solely by reading its crease pattern, opening a new era in my origami practice.</p>
+    tags:
+      - Origami
+    description: >-
+      Biotope paper, 2021
+    id: motorcycle
+    type: Origami
+  - title: Zerosen
+    image: zerosen_4.jpg
+    artist: Original work by Kamiya Satoshi, folded by Chaewon Baek
+    Date: "2021"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/zerosen_4.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/zerosen_1.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/zerosen_2.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/zerosen_3.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/zerosen_6.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <hr>
+
+      <p>Diagram: published in Works of Kamiya Satoshi 3</p>
+    tags:
+      - Origami
+    description: >-
+      Biotope paper, 2021
+    id: motorcycle
+    type: Origami
+  - title: Faye Valentine from <i>Cowboy Bebop</i>
+    image: Faye_Valentine.png
+    artist: Original work by Shinichiro Watanabe, drawn by Chaewon Baek
+    Date: "2020"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Faye_Valentine.png' class='img-responsive' alt='Logo'>
+      <hr>
+
+      <p>This was my first try at using Procreate (an ipad app) for drawing something. Consequently, I see some missed details.</p>
+    tags:
+      - Drawing
+    description: >-
+      Digital Drawing with Procreate, 2020
+    id: faye
     type: Drawing
   - title: Book Cover Design for 'Physics for Scientists and Engineers with Modern Physics'
     image: Serway_Typography.jpg
@@ -91,9 +180,49 @@ artworks:
       Digital Drawing with Vectornator, 2020
     id: SRT
     type: Drawing
+  - title: Grim Reaper
+    image: Grim_Reaper_1.jpg
+    artist: Original work by Miyamoto Chuya, folded by Chaewon Baek
+    Date: "2019"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Grim_Reaper_1.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Grim_Reaper_3.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Grim_Reaper_6.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <hr>
+
+      <p>Diagram: Published in New Generation of Origami</p>
+    tags:
+      - Origami
+    description: >-
+      Double-layered Hanji, 2019
+    id: motorcycle
+    type: Origami
+  - title: Pegasus
+    image: Pegasus_2.jpg
+    artist: Original work by Kamiya Satoshi, folded by Chaewon Baek
+    Date: "2018"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Pegasus_2.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Pegasus_4.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Pegasus_3.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <hr>
+
+      <p>CP in Kamiya Satoshi's personal website<br></p>
+    tags:
+      - Origami
+    description: >-
+      Hanji, 2018
+    id: pegasus
+    type: Origami
   - title: Howl's Moving Castle
     image: Howl.webp
-    artist: Original work by Miyazaki Hayao
+    artist: Original work by Miyazaki Hayao, drawn by Chaewon Baek
     Date: "2018"
     detail: >
       <img src='site.baseurl/assets/images/artworks/Howl.webp' class='img-responsive' alt='Drawing of moving castle'>
@@ -107,3 +236,24 @@ artworks:
       Pencil on Paper, 2018
     id: howl
     type: Drawing
+  - title: Crucifixion
+    image: Crucifixion_1.jpg
+    artist: Original work by Neelesh K, folded by Chaewon Baek
+    Date: "2017"
+    detail: >
+      <img src='site.baseurl/assets/images/artworks/Crucifixion_1.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Crucifixion_5.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <img src='site.baseurl/assets/images/artworks/Crucifixion_3.jpg' class='img-responsive' alt='Motorcycle'>
+
+      <hr>
+
+      <p>CP & Diagram in Neelesh K's personal flickr<br>
+      This work does not represent my personal religious belief, nor is it intended to offend any particular religion in any way.</p>
+    tags:
+      - Origami
+    description: >-
+      Hanji, 2017
+    id: jesus
+    type: Origami
