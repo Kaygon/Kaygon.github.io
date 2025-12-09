@@ -2,7 +2,7 @@
 layout: publication
 title: "Size Dependent Behaviors of Miura-Ori Structure"
 year: 2025
-month: 3
+month: 12
 authors:
   - Chaewon Baek
   - Hiromi Yasuda

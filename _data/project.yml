@@ -1117,15 +1117,130 @@ project:
   #   title: Wall Climbing Platform
   #   description: Biorobotics Lab
   #   id: Wall_Climbing
+  - category: research
+    detail: >
+      <p style="color: red;"><strong>
+      Results of this research are being formed into the manuscript <i>"Size Dependent Properties of Miura-ori Structure"</i> (C.Baek, T.Tachi, J.Yang, and H.Yasuda).
+      We plan to submit the paper to <i>Physical Review Letters</i> (PRL) in 2025.<br>
+      Detailed figures are withheld due to ongoing journal submission, but private Zoom meetings are available to discuss results!</strong>
+      </p>
+      <p>While looking into the analytical formulations of the stiffness of Miura-ori in the previous research, I discovered a curious phenomenon: 
+      for small sized Miura-ori, the stiffness graph looked like a direc-delta function. Although this was not in the scope of the previous research,
+      I decided to investigate this phenomenon further as a separate research project.<br>
+      In an infinite Miura-ori sheet, the structure exhibits a negative Poisson's ratio, leading to a monotonic change in its overall length during deformation.
+      In contrast, a finite Miura-ori structure shows a strikingly different behavior: its effective Poisson's ratio transitions from positive to negative.
+      At the configuration where this sign change occurs, boundary effects create a local minimum in the global length and induce a geometry-driven locking along one of the principal axes.
+      This locking phenomenon is strongly size-dependent, demonstrating size-dependent programmability in origami metamaterials.</p>
+      <img src='site.baseurl/assets/images/research/locking_trimmed.png' class='img-responsive'
+      alt='Size dependent locking in Miura-ori structure'>
+      <p style='text-align: center;'><b>Size dependent locking in Miura-ori structure</b></p>
+
+      <p>The gifs below show the compression tests of two different initial configurations of Miura-Ori structures.
+      The left figure starts from the near fully unfolded state, while the right figure starts from a partially folded state.
+      Locking is observed in both cases as the structure approaches its minimum height.<br>
+        
+      <img src='site.baseurl/assets/images/research/output1_rotated.gif' class='img-responsive'
+      alt='Compression from unfolded configuration'>
+      <p style='text-align: center;'><b>Compression from unfolded configuration</b></p>
+      
+      <img src='site.baseurl/assets/images/research/output2_rotated.gif' class='img-responsive'
+      alt='Compression from folded configuration'>
+
+      <p style='text-align: center;'><b>Compression from folded configuration</b></p>
+
+      <p>The above size-dependent locking was due to a local minimum of the effective length along one principal axis, when Poisson's ratio equals zero.
+      Extending the analysis to three dimensions, I found locking along directions in which the Poisson-coupled responses cancel, independent of tessellation size.
+      The size-dependent locking emerges as the special case aligned with the principal orthotropic axis.</p>
+
+      <p>This research is part of an international collaboration with Prof. Hiromi Yasuda at <a href = "https://www.isas.jaxa.jp/en/">Japan Aerospace Exploration Agency(JAXA) Institute of Space and Aeronautical Science(ISAS)</a>,
+      which I visited on 2024.08, 2025.02, and 2025.09.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/JAXA_Seminar_2.jpg' class='img-responsive'
+      alt='Seminar at JAXA ISAS'>
+
+      <p style='text-align: center;'><b>Picture of me making a research presentation (again) at JAXA</b></p>
+
+      <p>I also visited <a href = "https://origami.c.u-tokyo.ac.jp/~tachi/profile_en.html">Prof.Tachi's group</a> at University of Tokyo, where I made a research presentation and discussed our results with Prof. Tachi.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/tachi_lab_seminar.jpg' class='img-responsive'
+      alt='With Prof. Tachi at University of Tokyo'>
+
+      <p style='text-align: center;'><b>I was really honored to present our research at Prof.Tachi's group!</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/with_prof_tachi.jpg' class='img-responsive'
+      alt='With Prof. Tachi at University of Tokyo'>
+
+      <p style='text-align: center;'><b>With Prof. Tachi at University of Tokyo:)</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>This has been my most important research project to date, as I independently carried out every stage—
+      from defining the research question and designing the experiments to analyzing the data, developing the storyline, and writing the manuscript.</p>
+    tags:
+      - Research Project
+      - Visiting Researcher
+      - International
+      - JAXA ISAS
+      - University of Tokyo
+    image: locking_trimmed.png
+    title: Size dependent properties of Miura-ori structure
+    description: Research project in SNU Transformative Architecture (STAR) Lab and JAXA ISAS, Prof. Jinkyu Yang and Prof. Hiromi Yasuda
+    id: Size_dependence
+  - category: research
+    detail: >
+      <p style="color: red;"><strong>
+      Results of this research were presented as <i>"Homogenization of Periodic Origami"</i> (H.Yasuda, C.Baek, D.Ueda, J.Yang, K.Minesugi, and K.Ishimura) at the JSME Materials and Mechanics Conference 2025 in Kumamoto, Japan.
+      We are currently preparing the manuscript <i>"Homogenization of Periodic Origami Structures"</i> (H.Yasuda, C.Baek, T.Tachi, D.Ueda, J.Yang, K.Minesugi, and K.Ishimura), with plans to submit the paper to <i>PNAS</i> in early 2026.<br>
+      Detailed figures are withheld at the request of co-authors due to ongoing journal submission, but private Zoom meetings are available to discuss results!</strong>
+      </p>
+      <p>Mechanical metamaterials are architected materials formed from periodically repeated unit cells.
+      In the limit of infinite periodicity, their response can be described by an effective continuum with well-defined bulk properties. 
+      In this research, we investigated Miura-ori-derived metamaterials, and developed a general framework to derive their homogenized properties.
+      We demonstrated a wide range of tunability in directional elastic moduli, which stems from the transformable nature of origami-based structures.
+      The elastic moduli are derived analytically through the theorem of virtual work, which are then validated through finite element simulations. 
+      We also derive the conditions of isotropy in 2D planar Miura-ori tessellation and 3D Stacked Miura-ori structures.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/homogenization.gif' class='img-responsive'
+      alt='homogenization'>
+
+      <p style='text-align: center;'><b>The changing elastic modulus landscape of 3D Stacked Miura-ori with respect to folding angle.</b></p>
+
+      <p>This research is part of an international collaboration with Prof. Hiromi Yasuda at <a href = "https://www.isas.jaxa.jp/en/">Japan Aerospace Exploration Agency(JAXA) Institute of Space and Aeronautical Science(ISAS)</a>,
+      which I visited on 2024.08, 2025.02, and 2025.09.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/JAXA_Seminar_1.jpg' class='img-responsive'
+      alt='Seminar at JAXA ISAS'>
+
+      <p style='text-align: center;'><b>Picture of me making a research presentation at JAXA</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/Hiromi.jpg' class='img-responsive'
+      alt='Seminar at JAXA ISAS'>
+
+      <p style='text-align: center;'><b>With Prof. Hiromi Yasuda, who hosted me during my visit.<br>I'm incredibly grateful for his guidance and mentorship!</b></p>
+
+      <hr>
+
+      <p><b>[My role in this project]</b><br>As co-first author, I was responsible for the majority of the project, most prominently in analytical description of origami structures.</p>
+    tags:
+      - Research Project
+      - Visiting Researcher
+      - International
+      - JAXA ISAS
+      - University of Tokyo
+    image: homogenization.png
+    title: Homogenization of Periodic Origami Structures
+    description: Research project in SNU Transformative Architecture (STAR) Lab and JAXA ISAS, Prof. Jinkyu Yang and Prof. Hiromi Yasuda
+    id: Homogenization
   - category: Club Activity
     detail: >
       <p>As vice president of SRT 2025, I oversaw an eight-day program for over fifty undergraduates from four countries.
       Since the event had not been held in Korea for eight years, our team rebuilt the entire program from scratch,
-      coordinating everything from cultural activities to participants' diverse needs.
+      coordinating everything from cultural activities to participants' diverse needs.</p>
       <img src='site.baseurl/assets/images/project_detail/SRT_team_1.jpg' class='img-responsive'
       alt='SRT2025'>
       <p style='text-align: center;'><b>Our team after a long team meeting, about two weeks before the actual forum</b></p>
-      The forum included multiple discussions on social problems in Northeast Asian countries, field trips to historical sites, and cultural exchange events. 
+      
+      <p>The forum included multiple discussions on social problems in Northeast Asian countries, field trips to historical sites, and cultural exchange events.</p> 
       
       <img src='site.baseurl/assets/images/project_detail/SRT_group.jpg' class='img-responsive'
       alt='SRT2025'>
@@ -1136,7 +1251,8 @@ project:
       alt='SRT2025'>
 
       <p style='text-align: center;'><b>SRT2025 participants at Gyeongbokgung, Joseon dynasty's main palace</b></p>
-      I learned that large-scale leadership depends on the ability to communicate under pressure and align people toward a shared purpose,
+
+      <p>I learned that large-scale leadership depends on the ability to communicate under pressure and align people toward a shared purpose,
       skills essential to a collaborative research environment. A huge thanks to all the participants in 2025 SRT!
       And kudos to everyone in our team who worked hard to put the event together!</p>
 
@@ -1208,11 +1324,21 @@ project:
 
       <p style='text-align: center;'><b>Picture of our team with Ministerial Award!</b></p>
 
-      <hr>
-      
+      <p>
       In addition, we were given a full funding to participate in ISSCC 2025, 
       and received government-funded short-term technical industry training in the U.S. at Purdue University, Stanford university, UC Berkeley, Lam Research, Synopsys, Nvidia, and Samsung.</p>
       
+      <img src='site.baseurl/assets/images/project_detail/USA_2.jpg' class='img-responsive'
+      alt='synopsys'>
+
+      <p style='text-align: center;'><b>Industrial training at US. This particular picture was taken at Synopsys.</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/USA_1.jpg' class='img-responsive'
+      alt='synopsys'>
+
+      <p style='text-align: center;'><b>Our team at Purdue University!</b></p>
+
+      <hr>
 
       <p><b>[My role in this project]</b><br>Analysis of the GAAFET Transistor's parasitic resistance</p>
     tags:
@@ -1222,6 +1348,7 @@ project:
     image: GAAFET.png
     title: Improving AC performance of GAAFET transistors through geometric optimization
     description: Ministerial Award, Ministry of Education, Republic of Korea
+    slide: solvathone.pdf
     id: Semiconductor
   - category: research
     detail: >
@@ -1280,7 +1407,7 @@ project:
     detail: >
       <p>I designed and built a lightweight climbing platform using rotary microspines with urethane rubber based soft polymer flexures.
       The soft polymer flexures provide compliance and adaptability to uneven surfaces, while the microspines ensure secure attachment to various wall textures.
-      This work was done during my undergraduate internship in the Biorobotics Laboratory at Seoul National University, under Prof. Kyu-Jin Cho.</p>
+      </p>
 
       <img src='site.baseurl/assets/images/project_detail/BRL_1.jpg' class='img-responsive'
       alt='microspine unit'>
@@ -1302,8 +1429,8 @@ project:
   - category: research
     detail: >
       <p>Although the Flasher structure enables compact folding of a two-dimensional surface, no prior work has harnessed its defining characteristic: the rotation of its center during folding.
-      In this research, I exploit this previously overlooked property to develop a torsion-driven mechanism capable of folding and deploying the structure.
-      This work was done during my undergraduate internship in the Biorobotics Laboratory at Seoul National University, under Prof. Kyu-Jin Cho.</p>
+      In this research, I exploited this previously overlooked property to develop a torsion-driven mechanism capable of folding and deploying the structure.
+      </p>
 
       <img src='site.baseurl/assets/images/project_detail/deployment_cropped.gif' class='img-responsive'
       alt='deployment'>
@@ -1381,7 +1508,7 @@ project:
   #   id: KiCAD
   - category: schoolwork
     detail: >
-      <p>This was a course competition where we had to build robots that move objects across a field full of obstacles to score points.
+      <p>This was a competition in the undergraduate course 'Creative Engineering Design' where we had to build robots that move objects across a field full of obstacles to score points.
       We built two robots—one to collect the items and one to deploy a slope to reach the scoring areas.
       I suggested using two slope robots that fit in the starting area as one and split apart during the match, an idea that ended up winning the Creative Award.</p>
 
@@ -1399,18 +1526,57 @@ project:
     id: CED
   - category: Club Activity
     detail: >
-      <p>Designed, constructed the team's first Formula racecar's overall powertrain system from scratch, 
-      Held seminar on Finite Element Analysis and Topology optimization using Solidworks,
-      Developed a MATLAB program to Optimize the powertrain system by minimizing the load to individual components,
-      Mastered fundamental manufacturing skills: Welding(SMAW, TIG), Grinding, Assembling complex mechanical systems<br><br></p>
+      <p>
+      RunToYou is Seoul National University's Student Automotive Racing Team. Until 2020, the team focused on building off-road vehicles for the BAJA SAE competition.
+      I mastered fundamental fabrication skills such as welding (SMAW, TIG), grinding, and assembling complex mechanical systems while working on the BAJA team as an engineer from 2019 to 2020.</p>
 
       <img src='site.baseurl/assets/images/project_detail/RunToYou_Welding.jpg' class='img-responsive'
       alt='Welding'>
 
       <p style='text-align: center;'><b>I have 2+ years experience in welding, grinding... basically in all sorts of fabrication!</b></p>
       
+      <img src='site.baseurl/assets/images/project_detail/rty_chaewon.jpg' class='img-responsive'
+      alt='Wet Chaewon'>
+
+      <p style='text-align: center;'><b>2020 KSAE was a complete mess, with heavy rain turning the tracks into a marshland.</b></p>
+      
+      <img src='site.baseurl/assets/images/project_detail/rty_car.jpg' class='img-responsive'
+      alt='Overturned Car'>
+
+      <p style='text-align: center;'><b>One of our cars even got overturned!</b></p>
+
+      <p>
+      In 2021, I led the Formula Powertrain team to design and build the team's first Formula racecar's overall powertrain system from scratch.
+      This involved designing the layout of the powertrain components, selecting appropriate parts, and ensuring that the system met performance and safety requirements.<br>      
+      With no prior cars to reference, I learned that engineering depends on communication as much as technical reasoning.
+      I often reached beyond my own expertise by exchanging ideas with teams at other universities,
+      consulting machinists about manufacturability and cost, and learning to weigh their perspectives alongside our design goals.
+      I also organized seminars on simulation and CAD software (slides attached) and created detailed assembly documentation so the team could work with a common understanding.
+      </p>
+
+      <img src='site.baseurl/assets/images/project_detail/parts.jpg' class='img-responsive'
+      alt='Parts'>
+
+      <p style='text-align: center;'><b>Parts manufactured through CNC milling. It was an experience you simply can't get from coursework,
+      consulting with machinists about my designs and taking part in fabricating nearly $2,000 worth of custom parts!</b></p>
+
+      
+      <img src='site.baseurl/assets/images/project_detail/powertrain.gif' class='img-responsive'
+      alt='Powertrain'>
+
+      <p style='text-align: center;'><b>It's alive... It's alive!!</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/car_cropped.gif' class='img-responsive'
+      alt='Powertrain'>
+
+      <p style='text-align: center;'><b>Sadly, I wasn't able to participate in Formula SAE in person because I had to begin my mandatory military service in Korea.
+      But I was really happy to receive a video of our car running!</b></p>
+
+
       <img src='site.baseurl/assets/images/project_detail/RunToYou_Team.jpg' class='img-responsive'
       alt='Team'>
+
+      <p style='text-align: center;'><b>Our team on 2020</b></p>
 
       <hr>
 
@@ -1421,5 +1587,6 @@ project:
       - Mechanical Design
     image: RunToYou_me.jpg
     title: RunToYou
+    slide: topology_optimization.pdf
     description: The SNU Student Automotive Racing Team
     id: RunToYou
