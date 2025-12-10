@@ -1409,10 +1409,54 @@ project:
       The soft polymer flexures provide compliance and adaptability to uneven surfaces, while the microspines ensure secure attachment to various wall textures.
       </p>
 
+      <p>In the process of fabrication, I optimized molding and curing workflows to fabricate the soft polymer flexures without defects.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL.gif' class='img-responsive'
+      alt='microspine unit'>
+
+      <p style='text-align: center;'><b>Liquified urethane rubber is being extruded into the designed mold.</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL_3.jpg' class='img-responsive'
+      alt='microspine unit'>
+
+      <p style='text-align: center;'><b>Fully cured rotary microspine unit in the mold, after 72 hours inside oven.</b></p>
+
       <img src='site.baseurl/assets/images/project_detail/BRL_1.jpg' class='img-responsive'
       alt='microspine unit'>
 
-      <p style='text-align: center;'><b>A single rotary microspine unit with urethane rubber based soft polymer flexures</b></p>
+      <p style='text-align: center;'><b>A single rotary microspine unit out of the mold.</b></p>
+
+      <p>The wheel was fabricated by assembling multiple rotary microspine units around a central hub, after which it was then integrated into the climbing platform.
+      </p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL_5.jpg' class='img-responsive'
+      alt='microspine unit'>
+
+      <p style='text-align: center;'><b>A single wheel, assembled from multiple rotary microspine units.</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL_2.jpg' class='img-responsive'
+      alt='microspine unit'>
+
+      <p style='text-align: center;'><b>Finished climbing platform.</b></p>
+
+      <p>Experiments on inclined surfaces showed reliable climbing at 45°, whereas the robot struggled to climb inclines steeper than 60°.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL_45_cropped.gif' class='img-responsive'
+      alt='microspine unit'>
+
+      <p style='text-align: center;'><b>45° inclination</b></p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL_60_cropped.gif' class='img-responsive'
+      alt='microspine unit'>
+
+      <p style='text-align: center;'><b>60° inclination</b></p>
+
+      <p>These results are primarily attributed to unintended out-of-plane flexing and twisting of the flexures, along with weak adhesion between the flexures and the 3D-printed parts.</p>
+
+      <img src='site.baseurl/assets/images/project_detail/BRL_4.jpg' class='img-responsive'
+      alt='microspine unit'>
+
+      <p style='text-align: center;'><b>Out-of-plane twisting of the flexures reduces the ability of the microspines to engage with the surface.</b></p>
 
       <hr>
 
@@ -1423,7 +1467,7 @@ project:
       - Soft robotics
     image: BRL_2.jpg
     slide: BRL_Chaewon.pdf
-    title: Lightweight wall-climbing platform using soft polymer flexure based rotary microspine structures
+    title: Lightweight climbing platform using soft polymer flexure based rotary microspine structures
     description: Research project in Biorobotics Lab, Prof. Kyu-Jin Cho
     id: BRL
   - category: research
