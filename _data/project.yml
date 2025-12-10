@@ -1451,7 +1451,7 @@ project:
 
       <p style='text-align: center;'><b>60° inclination</b></p>
 
-      <p>These results are primarily attributed to unintended out-of-plane flexing and twisting of the flexures, along with weak adhesion between the flexures and the 3D-printed parts.</p>
+      <p>Failures at large inclination angles are primarily attributed to unintended out-of-plane flexing and twisting of the flexures, along with weak adhesion between the flexures and the 3D-printed parts.</p>
 
       <img src='site.baseurl/assets/images/project_detail/BRL_4.jpg' class='img-responsive'
       alt='microspine unit'>
