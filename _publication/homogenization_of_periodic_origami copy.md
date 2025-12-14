@@ -12,7 +12,8 @@ authors:
   - Kosei Ishimura
 venue: JSME Mechanics and Materials conference 2025
 venue_full: "The Japan Society of Mechanical Engineers (JSME) Materials and Mechanics Conference 2025"
-abstract: "Will be updated soon"
+abstract: "Will be updated soon, unable to share presentation materials due to JAXA's internal regulations"
+pdf: false
 category:
   - "Origami"
 featured: true
