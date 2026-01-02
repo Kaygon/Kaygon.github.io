@@ -15,7 +15,39 @@ description: Undergraduate Student at Seoul National University
             <div class="col-12 col-md-8 col-xxl-9 ps-0 align-self-center">
                 <h4>Chaewon Baek <img class="flag" src="{{ 'assets/images/misc/flag.svg' | relative_url }}"/></h4>
                 <div class="d-flex mx-2 mt-4 mb-3 justify-content-center d-md-none items-center">
-                    <img src="/assets/images/chaewon_7.jpg" class="w-75"/>
+                    <div class="wrapper">
+                        <input checked type="radio" name="slider-mobile" id="slide1-mobile" />
+                        <input type="radio" name="slider-mobile" id="slide2-mobile" />
+                        <input type="radio" name="slider-mobile" id="slide3-mobile" />
+                        <input type="radio" name="slider-mobile" id="slide4-mobile" />
+                        <input type="radio" name="slider-mobile" id="slide5-mobile" />
+                        <input type="radio" name="slider-mobile" id="slide6-mobile" />
+                        <input type="radio" name="slider-mobile" id="slide7-mobile" />
+                        <input type="radio" name="slider-mobile" id="slide8-mobile" />
+
+                        <div class="slider-wrapper">
+                            <div class="inner">
+                                <article><img src="/assets/images/chaewon_1.jpg" class="w-75" /></article>
+                                <article><img src="/assets/images/chaewon_2.jpg" class="w-75" /></article>
+                                <article><img src="/assets/images/chaewon_3.jpg" class="w-75" /></article>
+                                <article><img src="/assets/images/chaewon_4.jpg" class="w-75" /></article>
+                                <article><img src="/assets/images/chaewon_5.jpg" class="w-75" /></article>
+                                <article><img src="/assets/images/chaewon_6.jpg" class="w-75" /></article>
+                                <article><img src="/assets/images/chaewon_7.jpg" class="w-75" /></article>
+                                <article><img src="/assets/images/chaewon_8.jpg" class="w-75" /></article>
+                            </div>
+                            <div class="slider-dot-control">
+                                <label for="slide1-mobile"></label>
+                                <label for="slide2-mobile"></label>
+                                <label for="slide3-mobile"></label>
+                                <label for="slide4-mobile"></label>
+                                <label for="slide5-mobile"></label>
+                                <label for="slide6-mobile"></label>
+                                <label for="slide7-mobile"></label>
+                                <label for="slide8-mobile"></label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <p class="mt-3">I am an undergraduate student double majoring in <a href="https://me.snu.ac.kr/en/">Mechanical Engineering</a> and <a href = "https://ece.snu.ac.kr/en">Electrical & Computer Engineering</a> at <a href="https://en.snu.ac.kr/index.html">Seoul National University</a>.
                 I am currently a research intern at <a href = "https://starlab.snu.ac.kr/">SNU Transformative Architecture Laboratory (STAR Lab)</a>, where I study <b>origami structures and metamaterials</b> under professional guidance of <a href = "https://scholar.google.com.sg/citations?user=KkRZ5fwAAAAJ&hl=en">Prof. Jinkyu Yang</a>.</p>
@@ -25,7 +57,39 @@ description: Undergraduate Student at Seoul National University
                 <p> For more info, please check out my <a href="https://kaygon.github.io/cv/">CV</a> and <a href="https://kaygon.github.io/project">Projects</a>!</p>
             </div>
             <div class="d-none d-md-block col-12 col-md-4 col-xxl-3 align-self-center text-center">
-                <img src="/assets/images/chaewon_7.jpg" class="w-100" style="max-width: 300px;"/>
+                <div class="wrapper">
+                    <input checked type="radio" name="slider-desktop" id="slide1-desktop" />
+                    <input type="radio" name="slider-desktop" id="slide2-desktop" />
+                    <input type="radio" name="slider-desktop" id="slide3-desktop" />
+                    <input type="radio" name="slider-desktop" id="slide4-desktop" />
+                    <input type="radio" name="slider-desktop" id="slide5-desktop" />
+                    <input type="radio" name="slider-desktop" id="slide6-desktop" />
+                    <input type="radio" name="slider-desktop" id="slide7-desktop" />
+                    <input type="radio" name="slider-desktop" id="slide8-desktop" />
+
+                    <div class="slider-wrapper">
+                        <div class="inner">
+                            <article><img src="/assets/images/chaewon_1.jpg" class="w-100" /></article>
+                            <article><img src="/assets/images/chaewon_2.jpg" class="w-100" /></article>
+                            <article><img src="/assets/images/chaewon_3.jpg" class="w-100" /></article>
+                            <article><img src="/assets/images/chaewon_4.jpg" class="w-100" /></article>
+                            <article><img src="/assets/images/chaewon_5.jpg" class="w-100" /></article>
+                            <article><img src="/assets/images/chaewon_6.jpg" class="w-100" /></article>
+                            <article><img src="/assets/images/chaewon_7.jpg" class="w-100" /></article>
+                            <article><img src="/assets/images/chaewon_8.jpg" class="w-100" /></article>
+                        </div>
+                        <div class="slider-dot-control">
+                            <label for="slide1-desktop"></label>
+                            <label for="slide2-desktop"></label>
+                            <label for="slide3-desktop"></label>
+                            <label for="slide4-desktop"></label>
+                            <label for="slide5-desktop"></label>
+                            <label for="slide6-desktop"></label>
+                            <label for="slide7-desktop"></label>
+                            <label for="slide8-desktop"></label>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -77,6 +141,140 @@ description: Undergraduate Student at Seoul National University
     </div>
 </div>
 
+<style>
+.wrapper {
+    margin: 1em auto;
+    position: relative;
+}
+
+input {
+    display: none;
+}
+
+.inner {
+    width: 100%;
+    position: relative;
+}
+
+article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 800ms ease;
+}
+
+article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*---- SET UP CONTROL ----*/
+.slider-dot-control {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+}
+
+.slider-dot-control label {
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #bbb;
+    transition: all 0.3s;
+}
+
+.slider-dot-control label:hover {
+    background: #ccc;
+    border-color: #777;
+}
+
+/* Slider Styling */
+.slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #666;
+    background: #fff;
+    transform: translateZ(0);
+    transition: all 500ms ease-out;
+    height: 400px;
+    position: relative;
+}
+
+.slider-wrapper .inner {
+    transform: translateZ(0);
+    transition: all 500ms ease-out;
+}
+
+/*---- SET POSITION FOR SLIDE ----*/
+.slider-dot-control label.active {
+    background: #333;
+}
+
+/* Mobile and Desktop specific rules */
+#slide1-mobile:checked ~ .slider-wrapper article:nth-child(1) { opacity: 1; }
+#slide2-mobile:checked ~ .slider-wrapper article:nth-child(2) { opacity: 1; }
+#slide3-mobile:checked ~ .slider-wrapper article:nth-child(3) { opacity: 1; }
+#slide4-mobile:checked ~ .slider-wrapper article:nth-child(4) { opacity: 1; }
+#slide5-mobile:checked ~ .slider-wrapper article:nth-child(5) { opacity: 1; }
+#slide6-mobile:checked ~ .slider-wrapper article:nth-child(6) { opacity: 1; }
+#slide7-mobile:checked ~ .slider-wrapper article:nth-child(7) { opacity: 1; }
+#slide8-mobile:checked ~ .slider-wrapper article:nth-child(8) { opacity: 1; }
+
+#slide1-mobile:checked ~ .slider-wrapper .slider-dot-control label:nth-child(1) { background: #333; }
+#slide2-mobile:checked ~ .slider-wrapper .slider-dot-control label:nth-child(2) { background: #333; }
+#slide3-mobile:checked ~ .slider-wrapper .slider-dot-control label:nth-child(3) { background: #333; }
+#slide4-mobile:checked ~ .slider-wrapper .slider-dot-control label:nth-child(4) { background: #333; }
+#slide5-mobile:checked ~ .slider-wrapper .slider-dot-control label:nth-child(5) { background: #333; }
+#slide6-mobile:checked ~ .slider-wrapper .slider-dot-control label:nth-child(6) { background: #333; }
+#slide7-mobile:checked ~ .slider-wrapper .slider-dot-control label:nth-child(7) { background: #333; }
+#slide8-mobile:checked ~ .slider-wrapper .slider-dot-control label:nth-child(8) { background: #333; }
+
+#slide1-desktop:checked ~ .slider-wrapper article:nth-child(1) { opacity: 1; }
+#slide2-desktop:checked ~ .slider-wrapper article:nth-child(2) { opacity: 1; }
+#slide3-desktop:checked ~ .slider-wrapper article:nth-child(3) { opacity: 1; }
+#slide4-desktop:checked ~ .slider-wrapper article:nth-child(4) { opacity: 1; }
+#slide5-desktop:checked ~ .slider-wrapper article:nth-child(5) { opacity: 1; }
+#slide6-desktop:checked ~ .slider-wrapper article:nth-child(6) { opacity: 1; }
+#slide7-desktop:checked ~ .slider-wrapper article:nth-child(7) { opacity: 1; }
+#slide8-desktop:checked ~ .slider-wrapper article:nth-child(8) { opacity: 1; }
+
+#slide1-desktop:checked ~ .slider-wrapper .slider-dot-control label:nth-child(1) { background: #333; }
+#slide2-desktop:checked ~ .slider-wrapper .slider-dot-control label:nth-child(2) { background: #333; }
+#slide3-desktop:checked ~ .slider-wrapper .slider-dot-control label:nth-child(3) { background: #333; }
+#slide4-desktop:checked ~ .slider-wrapper .slider-dot-control label:nth-child(4) { background: #333; }
+#slide5-desktop:checked ~ .slider-wrapper .slider-dot-control label:nth-child(5) { background: #333; }
+#slide6-desktop:checked ~ .slider-wrapper .slider-dot-control label:nth-child(6) { background: #333; }
+#slide7-desktop:checked ~ .slider-wrapper .slider-dot-control label:nth-child(7) { background: #333; }
+#slide8-desktop:checked ~ .slider-wrapper .slider-dot-control label:nth-child(8) { background: #333; }
+
+/*---- TABLET ----*/
+@media only screen and (max-width: 850px) and (min-width: 450px) {
+    .slider-wrapper {
+        border-radius: 0;
+    }
+}
+
+/*---- MOBILE----*/
+@media only screen and (max-width: 450px) {
+    .slider-wrapper {
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    body {
+        padding: 0 80px;
+    }
+}
+</style>
+
 <script>
 	function addAnimation(scrollers) {
 		scrollers.forEach((scroller) => {
@@ -94,4 +292,39 @@ description: Undergraduate Student at Seoul National University
 	}
 	const scrollers = document.querySelectorAll(".scroller");
 	addAnimation(scrollers);
+
+	// Auto-advance sliders
+	let currentSlide = 1;
+	const totalSlides = 8;
+	let intervalId = setInterval(advanceSliders, 3000);
+
+	function advanceSliders() {
+		currentSlide = currentSlide >= totalSlides ? 1 : currentSlide + 1;
+		const mobileRadio = document.getElementById(`slide${currentSlide}-mobile`);
+		const desktopRadio = document.getElementById(`slide${currentSlide}-desktop`);
+		if (mobileRadio) mobileRadio.checked = true;
+		if (desktopRadio) desktopRadio.checked = true;
+	}
+
+	function restartTimer(newSlide) {
+		clearInterval(intervalId);
+		currentSlide = newSlide;
+		intervalId = setInterval(advanceSliders, 3000);
+	}
+
+	// Add event listeners to dot controls
+	const mobileLabels = document.querySelectorAll('.d-md-none .slider-dot-control label');
+	const desktopLabels = document.querySelectorAll('.d-none.d-md-block .slider-dot-control label');
+
+	mobileLabels.forEach((label, index) => {
+		label.addEventListener('click', () => {
+			restartTimer(index + 1);
+		});
+	});
+
+	desktopLabels.forEach((label, index) => {
+		label.addEventListener('click', () => {
+			restartTimer(index + 1);
+		});
+	});
 </script>
