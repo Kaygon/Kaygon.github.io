@@ -27,14 +27,14 @@ description: Undergraduate Student at Seoul National University
 
                         <div class="slider-wrapper">
                             <div class="inner">
-                                <article><img src="/assets/images/chaewon_1.jpg" class="w-75" /></article>
-                                <article><img src="/assets/images/chaewon_2.jpg" class="w-75" /></article>
-                                <article><img src="/assets/images/chaewon_3.jpg" class="w-75" /></article>
-                                <article><img src="/assets/images/chaewon_4.jpg" class="w-75" /></article>
-                                <article><img src="/assets/images/chaewon_5.jpg" class="w-75" /></article>
-                                <article><img src="/assets/images/chaewon_6.jpg" class="w-75" /></article>
-                                <article><img src="/assets/images/chaewon_7.jpg" class="w-75" /></article>
-                                <article><img src="/assets/images/chaewon_8.jpg" class="w-75" /></article>
+                                <article><img src="/assets/images/chaewon_1.jpg" class="slider-img" /></article>
+                                <article><img src="/assets/images/chaewon_2.jpg" class="slider-img" /></article>
+                                <article><img src="/assets/images/chaewon_3.jpg" class="slider-img" /></article>
+                                <article><img src="/assets/images/chaewon_4.jpg" class="slider-img" /></article>
+                                <article><img src="/assets/images/chaewon_5.jpg" class="slider-img" /></article>
+                                <article><img src="/assets/images/chaewon_6.jpg" class="slider-img" /></article>
+                                <article><img src="/assets/images/chaewon_7.jpg" class="slider-img" /></article>
+                                <article><img src="/assets/images/chaewon_8.jpg" class="slider-img" /></article>
                             </div>
                             <div class="slider-dot-control">
                                 <label for="slide1-mobile"></label>
@@ -145,6 +145,7 @@ description: Undergraduate Student at Seoul National University
 .wrapper {
     margin: 1em auto;
     position: relative;
+    width: 100%;          /* ✅ 추가: flex 안에서도 꽉 차게 */
 }
 
 input {
@@ -211,6 +212,13 @@ article img {
 .slider-wrapper .inner {
     transform: translateZ(0);
     transition: all 500ms ease-out;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* use 'contain' if you never want cropping */
+  display: block;
 }
 
 /*---- SET POSITION FOR SLIDE ----*/
