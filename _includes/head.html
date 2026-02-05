@@ -62,4 +62,14 @@
   {% endif %}
   <meta name="citation_pdf_url" content="{{ page.slug | prepend: 'https://donghoon.io/assets/pdf/' | append: '.pdf' }}">
   {% endif %}
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SVM0FPLQHK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SVM0FPLQHK');
+  </script>
 </head>
