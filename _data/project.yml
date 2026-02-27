@@ -1174,7 +1174,7 @@ project:
 
       where \(n = (n_x, n_y, n_z)\) is the unit vector representing the direction of loading, and \(\nu_{xy}\) and \(\nu_{xz}\) are the Poisson's ratios.
       This equation diverges when \(n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2=0\), leading to a kinematical locking.
-      In detail, the qudratic surface described by this condition changes shape depending on the sign of \(\nu_{xy}\), with \(\nu_{xz}\) staying positive regardless of the geometric configuration:<\p>
+      In detail, the qudratic surface described by this condition changes shape depending on the sign of \(\nu_{xy}\), with \(\nu_{xz}\) staying positive regardless of the geometric configuration:</p>
 
       <ul>
         <li>When \(\nu_{xy} > 0\), the surface is an elliptic cone with its symmetry axis aligned in the \(x\) direction.</li>
