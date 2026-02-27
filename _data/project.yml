@@ -1170,7 +1170,7 @@ project:
       Extending the analysis to three dimensions, we evaluate the three-dimensional Miura-ori tube structure's response along any arbitrary three-dimensional direction.
       Analogous to the relation in the 2D Miura-ori sheet, the nondimensionalized stiffnesses in three dimensions are coupled by a similar relation:</p>
 
-      $$\widetilde E_n = \frac{\widetilde E_x}{{n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2}^2},$$
+      $$\widetilde E_n = \frac{\widetilde E_x}{(n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2)^2},$$
 
       where \(n = (n_x, n_y, n_z)\) is the unit vector representing the direction of loading, and \(\nu_{xy}\) and \(\nu_{xz}\) are the Poisson's ratios between the corresponding axes.
       This equation diverges when \(n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2=0\), leading to a kinematical locking.
