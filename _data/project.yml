@@ -1132,6 +1132,10 @@ project:
       where additional degrees of freedom (DOFs) at the boundary of a structure lead to different mechanical responses compared to the bulk.
       However, in the case of Miura-ori, the structure exhibits a global single DOF under rigid origami assumption, and the boundary effects are not expected to play a significant role in the overall deformation behavior.<br></p>
 
+      <img src='site.baseurl/assets/images/research/geometry.jpg' class='img-responsive'
+      alt='Geometry of Miura-ori structure'>
+      <p style='text-align: center;'><b>Geometry of Miura-ori unit cell and tessellation</b></p>
+
       <p>In this work, we employ the rigid origami framework, i.e., the facets are perfectly rigid and the creases act as linear torsional springs.
       In a typical large-tessellation Miura-ori sheet, the structure exhibits a monotonic change in its overall structural length \(L_y\), as well as a negative Poisson's ratio throughout its unfolding motion.
       In contrast, a finite Miura-ori with a small number of unit cells shows a strikingly different behavior: \(L_y\) exhibits a local minimum, where the infinitesimal Poisson's ratio transitions from positive to negative.
@@ -1141,7 +1145,7 @@ project:
       alt='Size dependent locking in Miura-ori structure'>
       <p style='text-align: center;'><b>Size dependent locking in Miura-ori structure</b></p>
 
-      <p>This relationship is further verified by the analytical relation between the directional nondimensionalized stiffnesses*, \(\widetilde E_x\) and \(\widetilde E_y\).
+      <p>This relationship is further verified by the analytical relation between the directional nondimensionalized stiffnesses* along \(x\) and \(y\), \(\widetilde E_x\) and \(\widetilde E_y\).
       Since the structure is 1-DOF, the two quantities are coupled by the following relation:
 
       $$\widetilde E_y = \frac{\widetilde E_x}{\nu_{xy}^2},$$
@@ -1169,7 +1173,9 @@ project:
       $$\widetilde E_n = \frac{\widetilde E_x}{{n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2}^2},$$
 
       where \(n = (n_x, n_y, n_z)\) is the unit vector representing the direction of loading, and \(\nu_{xy}\) and \(\nu_{xz}\) are the Poisson's ratios between the corresponding axes.
-      This equation diverges when \(n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2=0\), leading to a kinematical locking. In detail, the qudratic surface described by this condition changes shape depending on the sign of \(\nu_{xy}\), with \(\nu_{xz}\) staying positive regardless of the geometric configuration:
+      This equation diverges when \(n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2=0\), leading to a kinematical locking.
+      In detail, the qudratic surface described by this condition changes shape depending on the sign of \(\nu_{xy}\), with \(\nu_{xz}\) staying positive regardless of the geometric configuration:<\p>
+
       <ul>
         <li>When \(\nu_{xy} > 0\), the surface is an elliptic cone with its symmetry axis aligned in the \(x\) direction.</li>
         <li>When \(\nu_{xy} = 0\), the surface degenerates into two planes \(n_x = \pm \sqrt{\nu_{xz}} n_z\) which intersect along the \(y\) axis, explaining the in-plane size-dependent locking in Miura-ori sheet.</li>
