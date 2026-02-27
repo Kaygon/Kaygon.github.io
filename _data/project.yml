@@ -1120,22 +1120,36 @@ project:
   - category: research
     detail: >
       <p style="color: red;"><strong>
-      Results of this research are being formed into the manuscript <i>"Size Dependent Properties of Miura-ori Structure"</i> (C.Baek, T.Tachi, J.Yang, and H.Yasuda).
-      We plan to submit the paper to <i>Physical Review Letters</i> (PRL) in 2025.<br>
-      Detailed figures are withheld due to ongoing journal submission, but private Zoom meetings are available to discuss results!</strong>
+      The results of this research is available on arXiv as <i>"Size Dependent Properties of Miura-ori Tessellations"</i> (C.Baek, T.Tachi, J.Yang, and H.Yasuda),
+      and also been submitted to <i>Physical Review Letters</i> (PRL) as of Feb. 2026.<br></strong>
       </p>
-      <p>While looking into the analytical formulations of the stiffness of Miura-ori in the previous research, I discovered a curious phenomenon: 
-      for small sized Miura-ori, the stiffness graph looked like a direc-delta function. Although this was not in the scope of the previous research,
-      I decided to investigate this phenomenon further as a separate research project.<br>
-      In an infinite Miura-ori sheet, the structure exhibits a negative Poisson's ratio, leading to a monotonic change in its overall length during deformation.
-      In contrast, a finite Miura-ori structure shows a strikingly different behavior: its effective Poisson's ratio transitions from positive to negative.
-      At the configuration where this sign change occurs, boundary effects create a local minimum in the global length and induce a geometry-driven locking along one of the principal axes.
-      This locking phenomenon is strongly size-dependent, demonstrating size-dependent programmability in origami metamaterials.</p>
+      <p>While looking into the analytical formulations of the directional stiffness of Miura-ori in the previous research, a curious phenomenon catched my eye:
+      typical large-tessellation Miura-ori sheets show a smooth stiffness curve during deformation, whereas the stiffness of small sized Miura-ori sheets exhibits a sharp peak at a specific configuration.
+      In other words, the stiffness graph of small sized Miura-ori looked like a Dirac-delta function, which was quite surprising to me.
+      I decided to investigate this further as a separate research project.<br></p>
+
+      <p>Size dependent property is a phenomenon that is observed in various materials and structures. In many metamaterials, this 'size-dependence' is often attributed to the boundary effects,
+      where additional degrees of freedom (DOFs) at the boundary of a structure lead to different mechanical responses compared to the bulk.
+      However, in the case of Miura-ori, the structure exhibits a global single DOF under rigid origami assumption, and the boundary effects are not expected to play a significant role in the overall deformation behavior.<br></p>
+
+      <p>In this work, we employ the rigid origami framework, i.e., the facets are perfectly rigid and the creases act as linear torsional springs.
+      In a typical large-tessellation Miura-ori sheet, the structure exhibits a monotonic change in its overall structural length \(L_y\), as well as a negative Poisson's ratio throughout its unfolding motion.
+      In contrast, a finite Miura-ori with a small number of unit cells shows a strikingly different behavior: \(L_y\) exhibits a local minimum, where the infinitesimal Poisson's ratio transitions from positive to negative.
+      This point serves as a compression-stable equilibrium, inducing a geometry-driven locking along one of the principal axes even without the deformation of the individual facets.</p>
+
       <img src='site.baseurl/assets/images/research/locking_trimmed.png' class='img-responsive'
       alt='Size dependent locking in Miura-ori structure'>
       <p style='text-align: center;'><b>Size dependent locking in Miura-ori structure</b></p>
 
-      <p>The gifs below show the compression tests of two different initial configurations of Miura-Ori structures.
+      <p>This relationship is further verified by the analytical relation between the directional nondimensionalized stiffnesses*, \(\widetilde E_x\) and \(\widetilde E_y\).
+      Since the structure is 1-DOF, the two quantities are coupled by the following relation:
+
+      $$\widetilde E_y = \frac{\widetilde E_x}{\nu_{xy}^2},$$
+
+      where we expect \(\widetilde E_y\) to diverge when the Poisson's ratio \(\nu_{xy}\) approaches zero.
+      As stated above, <b>the sign of the Poisson's ratio is strongly size-dependent, demonstrating the size-dependent locking capability of Miura-ori structures.</b><br></p>
+
+      <p>The gifs below show the uniaxial compression tests of two different initial configurations of Miura-Ori structures.
       The left figure starts from the near fully unfolded state, while the right figure starts from a partially folded state.
       Locking is observed in both cases as the structure approaches its minimum height.<br>
         
@@ -1148,9 +1162,31 @@ project:
 
       <p style='text-align: center;'><b>Compression from folded configuration</b></p>
 
-      <p>The above size-dependent locking was due to a local minimum of the effective length along one principal axis, when Poisson's ratio equals zero.
-      Extending the analysis to three dimensions, I found locking along directions in which the Poisson-coupled responses cancel, independent of tessellation size.
-      The size-dependent locking emerges as the special case aligned with the principal orthotropic axis.</p>
+      <p>
+      Extending the analysis to three dimensions, we evaluate the three-dimensional Miura-ori tube structure's response along any arbitrary three-dimensional direction.
+      Analogous to the relation in the 2D Miura-ori sheet, the nondimensionalized stiffnesses in three dimensions are coupled by a similar relation:</p>
+
+      $$\widetilde E_n = \frac{\widetilde E_x}{{n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2}^2},$$
+
+      where \(n = (n_x, n_y, n_z)\) is the unit vector representing the direction of loading, and \(\nu_{xy}\) and \(\nu_{xz}\) are the Poisson's ratios between the corresponding axes.
+      This equation diverges when \(n_x^2 - \nu_{xy} n_y^2 - \nu_{xz} n_z^2=0\), leading to a kinematical locking. In detail, the qudratic surface described by this condition changes shape depending on the sign of \(\nu_{xy}\), with \(\nu_{xz}\) staying positive regardless of the geometric configuration:
+      <ul>
+        <li>When \(\nu_{xy} > 0\), the surface is an elliptic cone with its symmetry axis aligned in the \(x\) direction.</li>
+        <li>When \(\nu_{xy} = 0\), the surface degenerates into two planes \(n_x = \pm \sqrt{\nu_{xz}} n_z\) which intersect along the \(y\) axis, explaining the in-plane size-dependent locking in Miura-ori sheet.</li>
+        <li>When \(\nu_{xy} < 0\), the surface is an elliptic cone with its symmetry axis aligned in the \(z\) direction.</li>
+      </ul>
+
+      <img src='site.baseurl/assets/images/research/MovieS2.gif' class='img-responsive'
+      alt='Compression from folded configuration'>
+      <p style='text-align: center;'><b>Evolution of the 3D non-dimensionalized stiffnesses \(\widetilde E_n\) with changing folding angle.</b></p>
+
+      <img src='site.baseurl/assets/images/research/MovieS3.gif' class='img-responsive'
+      alt='Compression from folded configuration'>
+      <p style='text-align: center;'><b>Evolution of the 3D non-dimensionalized stiffnesses \(\widetilde E_n\) with changing tessellation size.</b></p>
+
+      <p>
+      The size-dependent locking emerges as the special case aligned with the principal orthotropic axis.
+      Thus, varying tessellation size controls both the onset and the direction of locking in Miura-ori based metamaterials, demonstrating size-dependent programmability.</p>
 
       <p>This research is part of an international collaboration with Prof. Hiromi Yasuda at <a href = "https://www.isas.jaxa.jp/en/">Japan Aerospace Exploration Agency(JAXA) Institute of Space and Aeronautical Science(ISAS)</a>,
       which I visited on 2024.08, 2025.02, and 2025.09.</p>
@@ -1173,7 +1209,7 @@ project:
       <p style='text-align: center;'><b>With Prof. Tachi at University of Tokyo:)</b></p>
 
       <hr>
-
+      <p>* Nondimensionalized stiffness is defined as the structural stiffness normalized with the structural lengths of the structure, analoguous to the concept of Young's modulus in continuum mechanics.</p>
       <p><b>[My role in this project]</b><br>This has been my most important research project to date, as I independently carried out every stage—
       from defining the research question and designing the experiments to analyzing the data, developing the storyline, and writing the manuscript.</p>
     tags:
@@ -1182,10 +1218,12 @@ project:
       - International
       - JAXA ISAS
       - University of Tokyo
-    image: locking_trimmed.png
-    title: Size dependent properties of Miura-ori structure
+    image: MovieS3.gif
+    title: Size Dependent Properties of Miura-ori Tessellations
     description: Research project in SNU Transformative Architecture (STAR) Lab and JAXA ISAS, Prof. Jinkyu Yang and Prof. Hiromi Yasuda
     id: Size_dependence
+    paper: size_dependent_paper.pdf
+    link: 'https://arxiv.org/abs/2602.21559'
   - category: research
     detail: >
       <p style="color: red;"><strong>
