@@ -1178,7 +1178,7 @@ project:
 
       <ul>
         <li>When \(\nu_{xy} > 0\), the surface is an elliptic cone with its symmetry axis aligned in the \(x\) direction.</li>
-        <li>When \(\nu_{xy} = 0\), the surface degenerates into two planes \(n_x = \pm \sqrt{\nu_{xz}} n_z\) which intersect along the \(y\) axis, explaining the in-plane size-dependent locking in Miura-ori sheet.</li>
+        <li>When \(\nu_{xy} = 0\), the surface degenerates into two planes \(n_x = \pm \sqrt{\nu_{xz}} n_z\) intersecting along the \(y\) axis, explaining the in-plane size-dependent locking in Miura-ori sheet.</li>
         <li>When \(\nu_{xy} < 0\), the surface is an elliptic cone with its symmetry axis aligned in the \(z\) direction.</li>
       </ul>
 
@@ -1191,7 +1191,7 @@ project:
       <p style='text-align: center;'><b>Evolution of the 3D non-dimensionalized stiffnesses \(\widetilde E_n\) with changing tessellation size.</b></p>
 
       <p>
-      The size-dependent locking emerges as the special case aligned with the principal orthotropic axis.
+      The size-dependent locking in Miura-ori sheet emerges as a special case within a broader locking mechanism.
       Thus, varying tessellation size controls both the onset and the direction of locking in Miura-ori based metamaterials, demonstrating size-dependent programmability.</p>
 
       <p>This research is part of an international collaboration with Prof. Hiromi Yasuda at <a href = "https://www.isas.jaxa.jp/en/">Japan Aerospace Exploration Agency(JAXA) Institute of Space and Aeronautical Science(ISAS)</a>,
